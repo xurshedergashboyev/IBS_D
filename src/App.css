@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Mazzard';
+    src: local('Mazzard'),
+    url("./assets/font/GraphicUX.Com-Mazzard-Font/GraphicUX.Com-Mazzard/MazzardH-Regular.otf")
+    format("opentype");
+}
+
+body {
+    font-family: 'Mazzard', sans-serif;
+    min-width: 320px;
+    -webkit-font-smoothing: antialiased;
+    color: #000;
+    margin: 0;
+    min-height: 100vh;
+}
