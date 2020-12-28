@@ -182,7 +182,7 @@ export const FormSectionText = styled.div `
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 5px;
 `;
 
 export const FormSectionTitle = styled.h1 `
@@ -209,27 +209,65 @@ export const FormSectionDesc = styled.p `
 
 export const Form = styled.form `
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+  .number-format {
+    background-color: white;
+    border-radius: 8px;
+    width: 85%;
+    height: 50px;
+    border: none;
+    margin: 5px;
+    font-family: 'Mazzard', sans-serif;
+    padding: 5px 10px 5px;
+    transition: all .5s;
+    outline: none;
+    :focus {
+      border-radius: 8px;
+      border: 3px solid #ffbf2b;
+      outline: none;
+    }
+  }
+  
+  .select {
+    background-color: white;
+    border-radius: 8px;
+    width: 85%;
+    height: 50px;
+    border: none;
+    margin: 5px;
+    font-family: 'Mazzard', sans-serif;
+    padding: 5px 10px 5px;
+    transition: all .5s;
+    outline: none;
+    :focus {
+      border-radius: 8px;
+      border: 3px solid #ffbf2b;
+      outline: none;
+    }
+  }
 `;
 
 export const FormInput = styled.input `
   background-color: white;
-  border-radius: 16px;
-  width: 75%;
-  height: 30px;
+  border-radius: 8px;
+  width: 85%;
+  height: 50px;
   border: none;
   margin: 5px;
   font-family: 'Mazzard', sans-serif;
   padding: 5px 10px 5px;
+  transition: all .5s;
+  outline: none;
   ::placeholder {
     padding-left: 5px;
     font-family: 'Mazzard', sans-serif;
   }
   
   :focus {
-    border-radius: 16px;
+    border-radius: 8px;
     border: 3px solid #ffbf2b;
     outline: none;
   }

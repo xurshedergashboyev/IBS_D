@@ -13,8 +13,6 @@ export const FooterInner = styled.div `
   margin-left: -12px;
   margin-right: -12px;
   @media screen and (max-width: 767px) {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
     flex-direction: column-reverse;
   };
 `;
@@ -53,7 +51,8 @@ export const FooterMap = styled.div `
   margin-right: 12px;
   width: calc(66.6667% - 24px);
   iframe {
-    min-height: 250px;
+    min-height: 200px;
+    border-radius: 16px;
   };
   @media screen and (max-width: 767px) {
     width: calc(100% - 24px);

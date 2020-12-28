@@ -6,7 +6,8 @@ export const Header = styled.header `
   left: 0;
   width: 100%;
   min-width: 320px;
-  background-color: #fff;
+  background-color: hsla(0,0%,100%,0.8);
+  backdrop-filter: saturate(180%) blur(5px);
   padding: 20px 0;
   z-index: 10;
   box-shadow: 0px 4px 14px 0px rgba(0,0,0,0.1);

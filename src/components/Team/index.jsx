@@ -3,7 +3,6 @@ import {
     TeamSection,
     TeamHeader,
     TeamInner,
-    TeamMember,
     TeamAllMembers,
     TeamMemberImage,
     TeamMemberAvatar,
@@ -12,9 +11,10 @@ import {
 } from "./style";
 import { Heading, Container } from "../../assets/Styles/MainStyle";
 import { HeadingDesc } from "../../assets/Styles/MainStyle";
-import SettingsIcon from '../../assets/icons/settings.svg'
-import LoupeIcon from '../../assets/icons/loupe.svg'
-import AnalysisIcon from '../../assets/icons/analysis.svg'
+import SettingsIcon from '../../assets/icons/settings.svg';
+import LoupeIcon from '../../assets/icons/loupe.svg';
+import AnalysisIcon from '../../assets/icons/analysis.svg';
+import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
 const  Team = () => {
     return (
@@ -36,45 +36,74 @@ const  Team = () => {
                         </HeadingDesc>
                     </TeamHeader>
                     <TeamAllMembers>
-                        <TeamMember>
-                            <TeamMemberImage>
-                                <TeamMemberAvatar src={SettingsIcon} alt=""/>
-                            </TeamMemberImage>
-                            <TeamMemberName>
-                                Daler Zakirov
-                            </TeamMemberName>
-                            <TeamMemberDesc>
-                                Full-stack Developer
-                                <br />
-                                (Javascript)
-                            </TeamMemberDesc>
-                        </TeamMember>
-                        <TeamMember>
-                            <TeamMemberImage>
-                                <TeamMemberAvatar src={LoupeIcon} alt=""/>
-                            </TeamMemberImage>
-                            <TeamMemberName>
-                                Daler Zakirov
-                            </TeamMemberName>
-                            <TeamMemberDesc>
-                                Full-stack Developer
-                                <br />
-                                (Javascript)
-                            </TeamMemberDesc>
-                        </TeamMember>
-                        <TeamMember>
-                            <TeamMemberImage>
-                                <TeamMemberAvatar src={AnalysisIcon} alt=""/>
-                            </TeamMemberImage>
-                            <TeamMemberName>
-                                Daler Zakirov
-                            </TeamMemberName>
-                            <TeamMemberDesc>
-                                Full-stack Developer
-                                <br />
-                                (Javascript)
-                            </TeamMemberDesc>
-                        </TeamMember>
+                        <Flippy
+                            flipOnHover={true}
+                            flipOnClick={false}
+                            flipDirection="horizontal"
+                        >
+                            <FrontSide className="team-member">
+                                    <TeamMemberImage>
+                                        <TeamMemberAvatar src={SettingsIcon} alt=""/>
+                                    </TeamMemberImage>
+                                    <TeamMemberName>
+                                        Daler Zakirov
+                                    </TeamMemberName>
+                                    <TeamMemberDesc>
+                                        Full-stack Developer
+                                        <br />
+                                        (Javascript)
+                                    </TeamMemberDesc>
+                            </FrontSide>
+                            <BackSide className="team-member">
+                                Hello
+                            </BackSide>
+                        </Flippy>
+                        <Flippy
+                            flipOnHover={true}
+                            flipOnClick={false}
+                            flipDirection="horizontal"
+                        >
+                            <FrontSide className="team-member">
+                                <TeamMemberImage>
+                                    <TeamMemberAvatar src={AnalysisIcon} alt=""/>
+                                </TeamMemberImage>
+                                <TeamMemberName>
+                                    Daler Zakirov
+                                </TeamMemberName>
+                                <TeamMemberDesc>
+                                    Full-stack Developer
+                                    <br />
+                                    (Javascript)
+                                </TeamMemberDesc>
+                            </FrontSide>
+                            <BackSide className="team-member">
+                                Hello
+                            </BackSide>
+                        </Flippy>
+                        <Flippy
+                            flipOnHover={true}
+                            flipOnClick={false}
+                            flipDirection="horizontal" //
+                        >
+                            <FrontSide className="team-member">
+                                <TeamMemberImage>
+                                    <TeamMemberAvatar src={LoupeIcon} alt=""/>
+                                </TeamMemberImage>
+                                <TeamMemberName>
+                                    Daler Zakirov
+                                </TeamMemberName>
+                                <TeamMemberDesc>
+                                    Full-stack Developer
+                                    <br />
+                                    (Javascript)
+                                </TeamMemberDesc>
+                            </FrontSide>
+                            <BackSide className="team-member">
+                                Hello
+                            </BackSide>
+                        </Flippy>
+
+
                     </TeamAllMembers>
                 </TeamInner>
             </Container>

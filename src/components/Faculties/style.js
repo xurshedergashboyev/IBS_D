@@ -12,6 +12,7 @@ export const FacultiesHeader = styled.div `
 export const FacultiesItems = styled.div `
   max-width: 904px;
   margin: 0 auto;
+  background-color: white;
 `;
 
 export const FacultiesEachItem = styled.div `

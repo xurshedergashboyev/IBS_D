@@ -9,7 +9,7 @@ const AboutAcademy = () => {
             <Container>
                 <SectionMainTitle>
                     <Heading>Об академии</Heading>
-                    <HeadingDesc>Тех Академия Бобира Акилханова - карьера успешного IT специалиста начинается здесь</HeadingDesc>
+                    <HeadingDesc style={{marginBottom: 30}}>Тех Академия Бобира Акилханова - карьера успешного IT специалиста начинается здесь</HeadingDesc>
                 </SectionMainTitle>
                 {/*ABout Items Section*/}
                 <AboutItems />

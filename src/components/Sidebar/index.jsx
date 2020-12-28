@@ -16,11 +16,7 @@ import { MainButton } from "../../styles/MainStyle";
 
 
 const Sidebar = ({ open, ...props}) => {
-
     const isHidden = !!open;
-
-
-
     return (
         <MainWrapper open={open} aria-hidden={!isHidden} {...props}>
             <SideWrapper>
@@ -31,7 +27,6 @@ const Sidebar = ({ open, ...props}) => {
                             <MainButton>Пополнить счёт</MainButton>
                         </MainButtons>
                     </Buttons>
-
                     <SideContent>
                         <SideContentItems>Подключить тариф</SideContentItems>
                         <SideContentItems>Конструктор связи</SideContentItems>

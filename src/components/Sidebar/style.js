@@ -35,7 +35,8 @@ export const SideWrapperInner = styled.div `
   padding: 20px 40px 32px 136px;
   position: relative;
   width: 100%;
-  min-height: 100%;
+  background-color: #ffbf2b;
+  
   @media screen and (max-width: 1024px) {
     padding-left: 20px;
   }

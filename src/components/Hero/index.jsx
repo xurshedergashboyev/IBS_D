@@ -17,7 +17,14 @@ import { Container } from '../../assets/Styles/MainStyle';
 import Typical from 'react-typical';
 import { MainButton } from "../../styles/MainStyle";
 import Reward from "react-rewards";
+import NumberFormat from 'react-number-format';
+import Select from 'react-select';
 
+const options = [
+    { value: 'frontend development', label: 'Frontend Development' },
+    { value: 'backend development', label: 'Backend Development' },
+    { value: 'Android development', label: 'Android Development' }
+];
 
 
 export const Hero = () => {
@@ -27,6 +34,7 @@ export const Hero = () => {
         setActive(!active)
         reward.rewardMe()
     }
+
     return (
         <WrapperInner>
             <Lead>
@@ -64,6 +72,10 @@ export const Hero = () => {
                                 </FormSectionDesc>
                             </FormSectionText>
                             <Form>
+                                <FormInput type="text" required placeholder="Name"/>
+                                <NumberFormat format="+998 (##) ### ## ##" allowEmptyFormatting mask="_" className="number-format" />
+                                <FormInput type="email" required placeholder="Email (optional)" className="message" />
+                                <Select options={options} className="select" />
                                 <Reward
                                     ref={ref => {
                                         reward = ref;
@@ -77,15 +89,12 @@ export const Hero = () => {
                                         colors: ['#ffbf2b', '#000', '#fff']
                                     }}
                                 >
-                                    <MainButton style={{marginTop: 10}} onClick={ handleClick }>{!active
-                                        ?   'Submitted'
-                                        :   'Submit'
+                                    <MainButton disabled style={{marginTop: 5, padding: '12px 42px'}} onClick={ handleClick }>{!active
+                                        ?   'Submit'
+                                        :   'Submitted'
                                     }
                                     </MainButton>
                                 </Reward>
-                                <FormInput type="text" required placeholder="Xurshed Ergashbayev"/>
-                                <FormInput type="text" required placeholder="Xurshed Ergashbayev"/>
-                                <FormInput type="text" required placeholder="Xurshed Ergashbayev" className="message"/>
                             </Form>
                             <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"
                                  role="decorative" aria-hidden="true" viewBox="0 0 133.9 97.5" overflow="visible"
@@ -110,6 +119,6 @@ export const Hero = () => {
     );
 }
 
-export default Hero;
+export default Hero
 
 

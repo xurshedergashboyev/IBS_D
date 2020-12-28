@@ -62,18 +62,22 @@ export const TeamAllMembers = styled.div `
   @media screen and (max-width: 864px) {
     flex-wrap: wrap;
   }
+  
+  .team-member {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffbf2b;
+    border-radius: 14px;
+    margin: 20px;
+  }
 `;
 
 export const TeamMember = styled.div `
-  width: 300px;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffbf2b;
-  border-radius: 14px;
-  margin: 20px;
+  
 `;
 
 export const TeamMemberImage = styled.div `

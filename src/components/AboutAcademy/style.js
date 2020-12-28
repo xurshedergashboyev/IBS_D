@@ -9,7 +9,7 @@ export const About = styled.div `
 
 export const SectionMainTitle = styled.div `
   text-align: center;
-  margin-top: 400px;
+  margin-top: 20px;
   @media screen and (max-width: 945px) {
     margin-top: 400px;
   };
@@ -28,7 +28,6 @@ export const SectionMainTitle = styled.div `
 
 export const SectionTitle = styled.div `
   text-align: center;
-  //margin: 0 0 56px;
   @media screen and (max-width: 575px) {
     margin-bottom: 40px;
   };
