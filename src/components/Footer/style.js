@@ -46,16 +46,22 @@ export const FooterInfoItem = styled.div `
 `;
 
 export const FooterMap = styled.div `
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
   margin-left: 12px;
   margin-right: 12px;
   width: calc(66.6667% - 24px);
   iframe {
-    min-height: 200px;
+    width: 600px;
+    height: 400px;
+    min-height: 150px;
     border-radius: 16px;
   };
   @media screen and (max-width: 767px) {
     width: calc(100% - 24px);
+    height: 200px;
     margin-bottom: 30px;
   };
 `;

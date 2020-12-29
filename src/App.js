@@ -3,7 +3,6 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import AboutAcademy from "./components/AboutAcademy";
-import Cta from "./components/Cta";
 import Faculties from "./components/Faculties";
 import Team from "./components/Team/index";
 import Footer from "./components/Footer";
@@ -2187,7 +2186,6 @@ const App = () => {
             <Hero />
             <Benefits />
             <AboutAcademy />
-            <Cta />
             <Faculties />
             <Team />
             <Footer />

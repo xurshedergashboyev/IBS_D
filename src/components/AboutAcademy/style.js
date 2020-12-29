@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import AboutVideoImage from '../../assets/images/aboutAcademyImage.jpg';
 
 export const About = styled.div `
   @media screen and (max-width: 575px) {
@@ -39,15 +38,16 @@ export const SectionTitle = styled.div `
 export const AboutVideo = styled.div`
   position: relative;
   max-width: 720px;
-  margin: 0 auto 95px;
+  margin: 0 auto;
   border-radius: 18px;
+  width: 720px;
   @media screen and (max-width: 575px) {
     margin: 0 auto 40px;
   };
 `;
 
-export const AboutVideoButton = styled.div `
-  background-image: url(${AboutVideoImage});      
+export const AboutVideoPlace = styled.div `
+  background: #ffbf2b;      
   position: absolute;
   top: 0;
   left: 0;
@@ -57,5 +57,21 @@ export const AboutVideoButton = styled.div `
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+`;
+
+export const AboutVideoButton = styled.div `
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-decoration: none;
+  color: #fff;
+  transition: color .2s;
+  .video-button {
+    display: block;
+    font-size: 60px;
+    width: 1em;
+    height: 1em;
+  };
 `;
 

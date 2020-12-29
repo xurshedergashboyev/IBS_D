@@ -1,6 +1,6 @@
 import React from 'react';
-import {Container, Heading, HeadingDesc} from "../../assets/Styles/MainStyle";
-import {About, SectionMainTitle} from "./style";
+import { Container, Heading, HeadingDesc } from "../../assets/Styles/MainStyle";
+import { About, SectionMainTitle, AboutVideoButton, AboutVideo, AboutVideoPlace} from "./style";
 import AboutItems from "../AboutItems";
 
 const AboutAcademy = () => {
@@ -11,10 +11,17 @@ const AboutAcademy = () => {
                     <Heading>Об академии</Heading>
                     <HeadingDesc style={{marginBottom: 30}}>Тех Академия Бобира Акилханова - карьера успешного IT специалиста начинается здесь</HeadingDesc>
                 </SectionMainTitle>
+                <AboutVideo>
+                    <AboutVideoPlace>
+                        <AboutVideoButton>
+                            <svg className="video-button">
+                                <use xlinkHref="#sprite_play" />
+                            </svg>
+                        </AboutVideoButton>
+                    </AboutVideoPlace>
+                </AboutVideo>
                 {/*ABout Items Section*/}
                 <AboutItems />
-                {/*/!*Index*!/*/}
-                {/*<Statistics/>*/}
             </Container>
         </About>
 

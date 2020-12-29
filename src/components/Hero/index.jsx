@@ -14,11 +14,11 @@ import {
 } from "./style";
 
 import { Container } from '../../assets/Styles/MainStyle';
-import Typical from 'react-typical';
 import { MainButton } from "../../styles/MainStyle";
 import Reward from "react-rewards";
 import NumberFormat from 'react-number-format';
 import Select from 'react-select';
+import Typist from 'react-typist'
 
 const options = [
     { value: 'frontend development', label: 'Frontend Development' },
@@ -42,11 +42,15 @@ export const Hero = () => {
                     <HeroBoth>
                         <HeroSection>
                             <HeroTitle>
-                                <Typical
-                                    steps={['Приготовься изменить свое будущее', 4000, 'Приготовься изменить свое интересов', 4000]}
-                                    loop={Infinity}
-                                    wrapper="h5"
-                                />
+                                <Typist>
+                                    <span> Приготовься изменить свое будущее </span>
+                                    <Typist.Backspace count={8} delay={2000} />
+                                    <span className="second-text"> interest </span>
+                                    <Typist.Backspace count={9} delay={2000} />
+                                    <span className="third-text"> future </span>
+                                    <Typist.Backspace count={9} delay={2000} />
+                                    <span className="fourth-text"> anything </span>
+                                </Typist>
                             </HeroTitle>
                             <div className="all">
                                 <div className="secondary">
@@ -89,7 +93,7 @@ export const Hero = () => {
                                         colors: ['#ffbf2b', '#000', '#fff']
                                     }}
                                 >
-                                    <MainButton disabled style={{marginTop: 5, padding: '12px 42px'}} onClick={ handleClick }>{!active
+                                    <MainButton disabled style={{marginTop: 10, padding: '15px 62px'}} onClick={ handleClick }>{!active
                                         ?   'Submit'
                                         :   'Submitted'
                                     }

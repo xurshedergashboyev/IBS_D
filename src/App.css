@@ -9,6 +9,20 @@
     format("opentype");
 }
 
+@font-face {
+    font-family: 'Mosk';
+    src: local('Mosk'),
+    url("./assets/font/Mosk_Typeface/Mosk-Semi-Bold-600.ttf")
+    format("truetype");
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: local('Recoleta'),
+    url("./assets/font/Recoleta/Recoleta-Medium.ttf")
+    format("truetype");
+}
+
 body {
     font-family: 'Mazzard', sans-serif;
     min-width: 320px;

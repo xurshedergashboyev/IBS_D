@@ -2,12 +2,12 @@ import React from 'react';
 import { BenefitsSection, BenefitsContainer, Row, RowItem, Icon, AboutDesc, IconImg } from './style';
 import { Fade } from 'react-awesome-reveal';
 
-import GlobeIcon from '../../assets/icons/globe.svg';
-import SettingsIcon from '../../assets/icons/settings.svg';
-import AnalysisIcon from '../../assets/icons/analysis.svg';
-import StartUpIcon from '../../assets/icons/startup.svg';
-import LightBulbIcon from '../../assets/icons/lightbulb.svg';
-import LoupeIcon from '../../assets/icons/loupe.svg';
+import SetSquareIcon from '../../assets/icons/set-square.png';
+import TowerIcon from '../../assets/icons/tower.png';
+import QualityIcon from '../../assets/icons/quality.png';
+import HandshakeIcon from '../../assets/icons/handshake.png';
+import ComputerIcon from '../../assets/icons/computer.png';
+import CompassIcon from '../../assets/icons/compass.png';
 
 
 const Benefits = () => {
@@ -18,7 +18,7 @@ const Benefits = () => {
                     <Fade top delay={500} triggerOnce={true}>
                         <RowItem >
                             <Icon>
-                                <IconImg src={GlobeIcon} alt="globe"/>
+                                <IconImg src={ SetSquareIcon } alt="globe"/>
                             </Icon>
                             <AboutDesc>Преподаватели - практики</AboutDesc>
                         </RowItem>
@@ -26,7 +26,7 @@ const Benefits = () => {
                     <Fade bottom delay={700} triggerOnce={true}>
                         <RowItem>
                             <Icon>
-                                <IconImg src={LightBulbIcon} alt="lightBulb"/>
+                                <IconImg src={ TowerIcon } alt="lightBulb"/>
                             </Icon>
                             <AboutDesc>Преподаватели - практики</AboutDesc>
                     </RowItem>
@@ -34,7 +34,7 @@ const Benefits = () => {
                     <Fade bottom delay={900} triggerOnce={true}>
                         <RowItem>
                             <Icon>
-                                <IconImg src={LoupeIcon} alt="loupe"/>
+                                <IconImg src={ QualityIcon } alt="loupe"/>
                             </Icon>
                             <AboutDesc>Преподаватели - практики</AboutDesc>
                         </RowItem>
@@ -42,7 +42,7 @@ const Benefits = () => {
                     <Fade bottom delay={500} triggerOnce={true}>
                         <RowItem>
                             <Icon>
-                                <IconImg src={StartUpIcon} alt="startUp"/>
+                                <IconImg src={ HandshakeIcon } alt="startUp"/>
                             </Icon>
                             <AboutDesc className="about">Преподаватели - практики</AboutDesc>
                         </RowItem>
@@ -50,7 +50,7 @@ const Benefits = () => {
                     <Fade bottom delay={700} triggerOnce={true}>
                         <RowItem>
                             <Icon>
-                                <IconImg src={SettingsIcon} alt="settings"/>
+                                <IconImg src={ ComputerIcon } alt="settings"/>
                             </Icon>
                             <AboutDesc>Преподаватели - практики</AboutDesc>
                         </RowItem>
@@ -58,7 +58,7 @@ const Benefits = () => {
                     <Fade bottom delay={900} triggerOnce={true}>
                         <RowItem>
                             <Icon>
-                                <IconImg src={AnalysisIcon} alt="analysis"/>
+                                <IconImg src={ CompassIcon } alt="analysis"/>
                             </Icon>
                             <AboutDesc>Преподаватели - практики</AboutDesc>
                         </RowItem>

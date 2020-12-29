@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 
+
 export const WrapperInner = styled.div `
   display: flex;
   flex-grow: 1;
@@ -87,6 +88,19 @@ export const HeroTitle = styled.h1 `
   @media screen and (max-width: 550px) {
     font-size: 40px;
   };
+  .second-text {
+    //background-image: linear-gradient(transparent 0,transparent 55%, #ffbf2b 55%, #ffbf2b 90%,transparent 90%,transparent 100%);
+    //background-position: 70%;
+    //background-repeat: no-repeat;
+    font-family: 'Mosk', sans-serif;
+    -webkit-text-fill-color: hsl(164, 61%, 65%);
+  }
+  .fourth-text {
+    background-image: linear-gradient(transparent 0,transparent 55%, #ffbf2b 55%, #ffbf2b 90%,transparent 90%,transparent 100%);
+    background-position: 70%;
+    background-repeat: no-repeat;
+    font-family: 'Recoleta', sans-serif;
+  }
 `;
 
 export const BtnGroups = styled.div `
@@ -107,7 +121,7 @@ export const BtnGroups = styled.div `
 export const FormSection = styled.div `
   width: 390px;
   height: 394px;
-  margin-left: 50px;
+  margin: 50px;
   justify-content: center;
   align-items: center;
   background-color: #e0e0e0;
@@ -217,7 +231,7 @@ export const Form = styled.form `
     background-color: white;
     border-radius: 8px;
     width: 85%;
-    height: 50px;
+    height: 40px;
     border: none;
     margin: 5px;
     font-family: 'Mazzard', sans-serif;
@@ -235,7 +249,7 @@ export const Form = styled.form `
     background-color: white;
     border-radius: 8px;
     width: 85%;
-    height: 50px;
+    height: 40px;
     border: none;
     margin: 5px;
     font-family: 'Mazzard', sans-serif;
@@ -254,7 +268,7 @@ export const FormInput = styled.input `
   background-color: white;
   border-radius: 8px;
   width: 85%;
-  height: 50px;
+  height: 40px;
   border: none;
   margin: 5px;
   font-family: 'Mazzard', sans-serif;
