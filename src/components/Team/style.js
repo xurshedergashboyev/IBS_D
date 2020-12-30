@@ -8,6 +8,7 @@ export const TeamInner = styled.div `
   position: relative;
   padding: 88px 0 95px;
   &::before {
+    margin: 0;
     position: absolute;
     top: 0;
     left: -35px;
@@ -17,6 +18,10 @@ export const TeamInner = styled.div `
     background: #f3f1ee;
     content: "";
     z-index: -1;
+    @media screen and (max-width: 500px) {
+      margin: 0;
+      width: 99vw;
+    }
   };
 `;
 
