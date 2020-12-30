@@ -36,24 +36,23 @@ export const SectionTitle = styled.div `
 `;
 
 export const AboutVideo = styled.div`
-  position: relative;
-  max-width: 720px;
-  margin: 0 auto;
-  border-radius: 18px;
-  width: 720px;
-  @media screen and (max-width: 575px) {
-    margin: 0 auto 40px;
-  };
+  padding: 20px;
+  display: flex;
 `;
 
 export const AboutVideoPlace = styled.div `
-  background: #ffbf2b;      
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  width: 100%;
-  height: 100%
+  width: 720px;
+  height: 400px;
+  background-color: #8aff8d;
+  border-radius: 18px;
+  margin: 0 auto;
+  position: relative;
+  @media screen and (max-width: 800px) {
+    height: 300px;
+  }
+  @media screen and (max-width: 600px) {
+    height: 250px;
+  }
 `;
 
 export const AboutVideoButton = styled.div `
@@ -64,11 +63,14 @@ export const AboutVideoButton = styled.div `
   text-decoration: none;
   color: #fff;
   transition: color .2s;
+  :hover {
+    color: #ffbf2b;
+  }
   .video-button {
-    display: block;
     font-size: 60px;
     width: 1em;
     height: 1em;
+    cursor: pointer;
   };
 `;
 

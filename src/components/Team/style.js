@@ -5,29 +5,28 @@ export const TeamSection = styled.div `
 `;
 
 export const TeamInner = styled.div `
-  position: relative;
-  padding: 88px 0 95px;
-  &::before {
-    margin: 0;
-    position: absolute;
-    top: 0;
+  padding: 10px 0 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const TeamBack = styled.div `
     left: -35px;
     right: -35px;
     height: 100%;
     border-radius: 18px;
-    background: #f3f1ee;
     content: "";
     z-index: -1;
     @media screen and (max-width: 500px) {
       margin: 0;
       width: 99vw;
     }
-  };
 `;
 
 export const TeamHeader = styled.div `
   position: relative;
-  margin: 0 0 65px;
+  margin: 10px 0 65px;
   text-align: center;
 `;
 
@@ -64,7 +63,7 @@ export const TeamAllMembers = styled.div `
   display: flex;
   justify-content: center;
   align-items: center;
-  @media screen and (max-width: 864px) {
+  @media screen and (max-width: 1040px) {
     flex-wrap: wrap;
   }
   

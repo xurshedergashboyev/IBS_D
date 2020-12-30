@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Heading, HeadingDesc } from "../../assets/Styles/MainStyle";
-import { About, SectionMainTitle } from "./style";
+import { About, SectionMainTitle, AboutVideo, AboutVideoButton, AboutVideoPlace } from "./style";
 import AboutItems from "../AboutItems";
+import { FaPlay } from 'react-icons/fa'
 
 const AboutAcademy = () => {
     return (
@@ -11,15 +12,13 @@ const AboutAcademy = () => {
                     <Heading>Об академии</Heading>
                     <HeadingDesc style={{marginBottom: 30}}>Тех Академия Бобира Акилханова - карьера успешного IT специалиста начинается здесь</HeadingDesc>
                 </SectionMainTitle>
-                {/*<AboutVideo>*/}
-                {/*    <AboutVideoPlace>*/}
-                {/*        <AboutVideoButton>*/}
-                {/*            <svg className="video-button">*/}
-                {/*                <use xlinkHref="#sprite_play" />*/}
-                {/*            </svg>*/}
-                {/*        </AboutVideoButton>*/}
-                {/*    </AboutVideoPlace>*/}
-                {/*</AboutVideo>*/}
+                <AboutVideo>    
+                    <AboutVideoPlace>
+                        <AboutVideoButton>
+                            <FaPlay className="video-button"/>
+                       </AboutVideoButton>
+                    </AboutVideoPlace>
+                </AboutVideo>
                 {/*ABout Items Section*/}
                 <AboutItems />
             </Container>
