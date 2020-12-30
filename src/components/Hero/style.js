@@ -22,17 +22,19 @@ export const HeroBoth = styled.div `
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  @media screen and (max-width: 667px) {
+  @media screen and (max-width: 800px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
   }
 `;
 
 export const HeroSection = styled.div `
   margin: 0 auto;
-
+  text-align: center;
   .all {
     display: block;
     margin-top: 0;
@@ -77,46 +79,41 @@ export const HeroTitle = styled.h1 `
   margin: 0 auto;
   font-size: 65px;
   font-weight: 700;
-  line-height: 1.5;
-  @media screen and (max-width: 667px) {
+  line-height: 1;
+  padding-bottom: 30px;
+  @media screen and (max-width: 800px) {
     text-align: center;
-} 
-  
+  };
   @media screen and (max-width: 991px) {
     font-size: 45px;
   };
   @media screen and (max-width: 550px) {
     font-size: 40px;
   };
-  .second-text {
-    //background-image: linear-gradient(transparent 0,transparent 55%, #ffbf2b 55%, #ffbf2b 90%,transparent 90%,transparent 100%);
-    //background-position: 70%;
-    //background-repeat: no-repeat;
-    font-family: 'Mosk', sans-serif;
-    -webkit-text-fill-color: hsl(164, 61%, 65%);
-  }
-  .fourth-text {
-    background-image: linear-gradient(transparent 0,transparent 55%, #ffbf2b 55%, #ffbf2b 90%,transparent 90%,transparent 100%);
-    background-position: 70%;
-    background-repeat: no-repeat;
-    font-family: 'Recoleta', sans-serif;
-  }
 `;
 
-export const BtnGroups = styled.div `
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+export const FirstSpan = styled.span `
+  
 `;
+
+export const SecondSpan = styled.span `
+  font-family: 'Margo', sans-serif;
+  font-size: 100px;
+  -webkit-text-fill-color: #00e4e3;
+`;
+
+export const ThirdSpan = styled.span `
+  font-family: 'Hello', sans-serif;
+  font-size: 100px;
+  -webkit-text-fill-color: #ffbf2b;
+`;
+
+export const FourthSpan = styled.span `
+  background-image: linear-gradient(transparent 0, transparent 55%, #8aff8d 55%, #8aff8d 90%, transparent 90%, transparent 100%);
+  background-position: 70%;
+  background-repeat: no-repeat;
+  font-family: 'Recoleta', sans-serif;
+`
 
 export const FormSection = styled.div `
   width: 390px;
@@ -130,6 +127,7 @@ export const FormSection = styled.div `
   @media screen and (max-width: 667px) {
     margin-top: 100px;
     margin-left: 0;
+    margin-right: 0;
   }
   
   ::before {
@@ -229,15 +227,15 @@ export const Form = styled.form `
   
   .number-format {
     background-color: white;
-    border-radius: 8px;
-    width: 85%;
+    border-radius: 4px;
+    width: 80%;
     height: 40px;
     border: none;
     margin: 5px;
     font-family: 'Mazzard', sans-serif;
     padding: 5px 10px 5px;
     transition: all .5s;
-    outline: none;
+    outline: nonee
     :focus {
       border-radius: 8px;
       border: 3px solid #ffbf2b;
@@ -246,18 +244,17 @@ export const Form = styled.form `
   }
   
   .select {
-    background-color: white;
-    border-radius: 8px;
     width: 85%;
     height: 40px;
     border: none;
-    margin: 5px;
+    margin: 4px;
     font-family: 'Mazzard', sans-serif;
     padding: 5px 10px 5px;
     transition: all .5s;
     outline: none;
+    border: none;
     :focus {
-      border-radius: 8px;
+      border-radius: 4px;
       border: 3px solid #ffbf2b;
       outline: none;
     }
@@ -266,8 +263,8 @@ export const Form = styled.form `
 
 export const FormInput = styled.input `
   background-color: white;
-  border-radius: 8px;
-  width: 85%;
+  border-radius: 4px;
+  width: 80%;
   height: 40px;
   border: none;
   margin: 5px;
@@ -281,7 +278,7 @@ export const FormInput = styled.input `
   }
   
   :focus {
-    border-radius: 8px;
+    border-radius: 4px;
     border: 3px solid #ffbf2b;
     outline: none;
   }

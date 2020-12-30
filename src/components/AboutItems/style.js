@@ -39,7 +39,7 @@ export const AboutItemSecond = styled.div `
   @media screen and (max-width: 866px) {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   };

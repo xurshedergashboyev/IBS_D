@@ -23,6 +23,20 @@
     format("truetype");
 }
 
+@font-face {
+    font-family: 'Margo';
+    src: local('Margo'),
+    url("./assets/font/Margo_Dfonts.org/Margo Complete Family/Jen-Wagner-Co.-Margo-Script-Regular.otf")
+    format('opentype');
+}
+
+@font-face {
+    font-family: 'Hello';
+    src: local('Hello'),
+    url("./assets/font/Hello/Hello.otf")
+    format('opentype');
+}
+
 body {
     font-family: 'Mazzard', sans-serif;
     min-width: 320px;

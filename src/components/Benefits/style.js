@@ -33,7 +33,6 @@ export const RowItem = styled.div `
     width: 175px;
     font-size: 14px;
     margin: 20px auto;
-    //text-align: center;
     justify-content: center;
   };
   @media screen and (max-width: 767px) {
@@ -44,8 +43,8 @@ export const RowItem = styled.div `
 
 export const Icon = styled.div `
   position: relative;
-  width: 72px;
-  height: 72px;
+  width: 102px;
+  height: 102px;
   border-radius: 50%;
   background-color: #f3f1ee;
   margin: 0 auto 15px;
@@ -58,7 +57,7 @@ export const Icon = styled.div `
 `;
 
 export const AboutDesc = styled.p `
-    
+    // empty
 `;
 
 export const IconImg = styled.img `
@@ -66,7 +65,7 @@ export const IconImg = styled.img `
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 42px;
-  height: auto;
+  width: 62px;
+  height:   auto;
 `;
 

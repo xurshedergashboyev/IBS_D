@@ -51,8 +51,8 @@ export const FacultiesItemIcon = styled.div `
     margin: 0 auto 10px;
   };
   @media screen and (max-width: 575px) {
-    width: 75px;
-    height: 75px;
+    width: 82px;
+    height: 82px;
   };
 `;
 
@@ -62,8 +62,8 @@ export const FacultiesItemIconImage = styled.div `
   left: 50%;
   transform: translate(-50%, -50%);
   img {
-    width: 65px;
-    height: 65px;
+    width: 62px;
+    height: 62px;
   };
 `;
 

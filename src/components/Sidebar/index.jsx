@@ -1,5 +1,6 @@
 import React from 'react';
 import { GrPhone, GrMail } from 'react-icons/gr';
+import { FaTelegram, FaInstagram, FaTwitter, FaFacebook} from "react-icons/all";
 import {
     MainWrapper,
     SideExtra,
@@ -8,7 +9,12 @@ import {
     SideWrapper,
     SideContent,
     SideContentItems,
-    SideExtraContentItems, SideExtraSpan, Buttons, SideExtraItems, MainButtons
+    SideExtraContentItems,
+    SideExtraSpan,
+    Buttons,
+    SideExtraItems,
+    MainButtons,
+    SideSocials
 } from "./style";
 import { bool } from 'prop-types';
 import { MainButton } from "../../styles/MainStyle";
@@ -23,8 +29,8 @@ const Sidebar = ({ open, ...props}) => {
                 <SideWrapperInner>
                     <Buttons>
                         <MainButtons>
-                            <MainButton style={{marginRight: 20}}>Пополнить счёт</MainButton>
-                            <MainButton>Пополнить счёт</MainButton>
+                            <MainButton style={{marginRight: 20, backgroundColor: '#8aff8d'}}>Пополнить счёт</MainButton>
+                            <MainButton style={{backgroundColor: '#8aff8d'}}>Пополнить счёт</MainButton>
                         </MainButtons>
                     </Buttons>
                     <SideContent>
@@ -46,11 +52,16 @@ const Sidebar = ({ open, ...props}) => {
                             <SideExtraSpan>+998 99 999 16 41</SideExtraSpan>
                         </SideExtraItems>
                         <SideExtraItems>
-                            <GrMail />
+                            <GrMail style={{fontSize: 20}}/>
                             <SideExtraSpan>xurshedergashboyev@gmail.com</SideExtraSpan>
                         </SideExtraItems>
-
                     </SideExtra>
+                    <SideSocials>
+                        <FaFacebook className="social-icon"/>
+                        <FaInstagram className="social-icon"/>
+                        <FaTwitter className="social-icon"/>
+                        <FaTelegram className="social-icon"/>
+                    </SideSocials>
                 </SideWrapperInner>
             </SideWrapper>
         </MainWrapper>

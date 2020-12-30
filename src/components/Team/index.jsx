@@ -15,6 +15,7 @@ import SettingsIcon from '../../assets/icons/settings.svg';
 import LoupeIcon from '../../assets/icons/loupe.svg';
 import AnalysisIcon from '../../assets/icons/analysis.svg';
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
+import { Fade } from 'react-awesome-reveal';
 
 const  Team = () => {
     return (
@@ -41,7 +42,8 @@ const  Team = () => {
                             flipOnClick={false}
                             flipDirection="horizontal"
                         >
-                            <FrontSide className="team-member">
+                            <Fade delay={500} bottom triggerOnce={false}>
+                                <FrontSide className="team-member">
                                     <TeamMemberImage>
                                         <TeamMemberAvatar src={SettingsIcon} alt=""/>
                                     </TeamMemberImage>
@@ -53,57 +55,60 @@ const  Team = () => {
                                         <br />
                                         (Javascript)
                                     </TeamMemberDesc>
-                            </FrontSide>
-                            <BackSide className="team-member">
-                                Hello
-                            </BackSide>
+                                </FrontSide>
+                                <BackSide className="team-member">
+                                    Hello
+                                </BackSide>
+                            </Fade>
                         </Flippy>
                         <Flippy
                             flipOnHover={true}
                             flipOnClick={false}
                             flipDirection="horizontal"
                         >
-                            <FrontSide className="team-member">
-                                <TeamMemberImage>
-                                    <TeamMemberAvatar src={AnalysisIcon} alt=""/>
-                                </TeamMemberImage>
-                                <TeamMemberName>
-                                    Daler Zakirov
-                                </TeamMemberName>
-                                <TeamMemberDesc>
-                                    Full-stack Developer
-                                    <br />
-                                    (Javascript)
-                                </TeamMemberDesc>
-                            </FrontSide>
-                            <BackSide className="team-member">
-                                Hello
-                            </BackSide>
+                            <Fade delay={600} bottom triggerOnce={false}>
+                                <FrontSide className="team-member">
+                                    <TeamMemberImage>
+                                        <TeamMemberAvatar src={AnalysisIcon} alt=""/>
+                                    </TeamMemberImage>
+                                    <TeamMemberName>
+                                        Daler Zakirov
+                                    </TeamMemberName>
+                                    <TeamMemberDesc>
+                                        Full-stack Developer
+                                        <br />
+                                        (Javascript)
+                                    </TeamMemberDesc>
+                                </FrontSide>
+                                <BackSide className="team-member">
+                                    Hello
+                                </BackSide>
+                            </Fade>
                         </Flippy>
                         <Flippy
                             flipOnHover={true}
                             flipOnClick={false}
                             flipDirection="horizontal" //
                         >
-                            <FrontSide className="team-member">
-                                <TeamMemberImage>
-                                    <TeamMemberAvatar src={LoupeIcon} alt=""/>
-                                </TeamMemberImage>
-                                <TeamMemberName>
-                                    Daler Zakirov
-                                </TeamMemberName>
-                                <TeamMemberDesc>
-                                    Full-stack Developer
-                                    <br />
-                                    (Javascript)
-                                </TeamMemberDesc>
-                            </FrontSide>
-                            <BackSide className="team-member">
-                                Hello
-                            </BackSide>
+                            <Fade delay={700} bottom triggerOnce={false}>
+                                <FrontSide className="team-member">
+                                    <TeamMemberImage>
+                                        <TeamMemberAvatar src={LoupeIcon} alt=""/>
+                                    </TeamMemberImage>
+                                    <TeamMemberName>
+                                        Daler Zakirov
+                                    </TeamMemberName>
+                                    <TeamMemberDesc>
+                                        Full-stack Developer
+                                        <br />
+                                        (Javascript)
+                                    </TeamMemberDesc>
+                                </FrontSide>
+                                <BackSide className="team-member">
+                                    Hello
+                                </BackSide>
+                            </Fade>
                         </Flippy>
-
-
                     </TeamAllMembers>
                 </TeamInner>
             </Container>

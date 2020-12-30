@@ -65,7 +65,7 @@ export const TeamAllMembers = styled.div `
   
   .team-member {
     width: 300px;
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,10 +74,6 @@ export const TeamAllMembers = styled.div `
     border-radius: 14px;
     margin: 20px;
   }
-`;
-
-export const TeamMember = styled.div `
-  
 `;
 
 export const TeamMemberImage = styled.div `

@@ -58,6 +58,11 @@ export const FooterMap = styled.div `
     height: 400px;
     min-height: 150px;
     border-radius: 16px;
+    @media screen and (max-width: 767px) {
+      width: calc(100% - 24px);
+      height: 200px;
+      margin-bottom: 10px;
+    };
   };
   @media screen and (max-width: 767px) {
     width: calc(100% - 24px);

@@ -107,8 +107,7 @@ export const MainButton = styled.div `
   letter-spacing: 0;
   padding: 12px 22px;
   color: #000;
-  border: 1px solid #f8de33;
-  background-color: #f8de33;
+  background-color: #ffbf2b;
   -webkit-transition: all .2s;
   -o-transition: all .2s;
   transition: all .2s;

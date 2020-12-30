@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const MainWrapper = styled.div `
   z-index: 10;
   position: fixed;
+  background: hsla(0,0,0,0.7);
   top: 0;
   right: 0;
   bottom: 0;
@@ -131,4 +132,13 @@ export const SideContentItems = styled.a `
     text-decoration: underline;
     cursor: pointer;
   };
+`;
+
+export const SideSocials = styled.div `
+  display: flex;
+  margin-top: 20px;
+  .social-icon {
+    margin-right: 30px;
+    font-size: 20px;
+  }
 `;

@@ -10,17 +10,17 @@ export const SectionMainTitle = styled.div `
   text-align: center;
   margin-top: 20px;
   @media screen and (max-width: 945px) {
-    margin-top: 400px;
+    margin-top: 20px;
   };
   @media screen and (max-width: 805px) {
-    margin-top: 500px;
+    margin-top: 20px;
   };
   @media screen and (max-width: 575px) {
-    margin-top: 400px;
+    margin-top: 20px;
     margin-bottom: 40px;
   };
   @media screen and (max-width: 479px) {
-    margin-top: 500px;
+    margin-top: 20px;
     text-align: center;
   };
 `;
@@ -53,10 +53,7 @@ export const AboutVideoPlace = styled.div `
   left: 0;
   z-index: 2;
   width: 100%;
-  height: 100%;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100%
 `;
 
 export const AboutVideoButton = styled.div `

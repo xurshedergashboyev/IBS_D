@@ -3,7 +3,7 @@ import { BenefitsSection, BenefitsContainer, Row, RowItem, Icon, AboutDesc, Icon
 import { Fade } from 'react-awesome-reveal';
 
 import SetSquareIcon from '../../assets/icons/set-square.png';
-import TowerIcon from '../../assets/icons/tower.png';
+import CubeIcon from '../../assets/icons/cube.png'
 import QualityIcon from '../../assets/icons/quality.png';
 import HandshakeIcon from '../../assets/icons/handshake.png';
 import ComputerIcon from '../../assets/icons/computer.png';
@@ -26,7 +26,7 @@ const Benefits = () => {
                     <Fade bottom delay={700} triggerOnce={true}>
                         <RowItem>
                             <Icon>
-                                <IconImg src={ TowerIcon } alt="lightBulb"/>
+                                <IconImg src={ CubeIcon } alt="lightBulb"/>
                             </Icon>
                             <AboutDesc>Преподаватели - практики</AboutDesc>
                     </RowItem>

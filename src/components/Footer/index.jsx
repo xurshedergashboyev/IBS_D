@@ -1,6 +1,6 @@
 import React from 'react';
-import {Heading, Container} from "../../assets/Styles/MainStyle";
-import {SectionTitle} from "../AboutAcademy/style";
+import { Heading, Container } from "../../assets/Styles/MainStyle";
+import { SectionTitle } from "../AboutAcademy/style";
 import {
     FooterSection,
     FooterInfo,
