@@ -77,7 +77,7 @@ export const Hero = () => {
                             </FormSectionText>
                             <Form>
                                 <FormInput type="text" required placeholder="Name"/>
-                                <NumberFormat format="+998 (##) ### ## ##" allowEmptyFormatting mask="_" className="number-format" />
+                                <NumberFormat format="+998 (##) ###-##-##" allowEmptyFormatting mask="_" className="number-format" />
                                 <FormInput type="email" required placeholder="Email (optional)" className="message" />
                                 <Select options={options} className="select" />
                                 <Reward
@@ -90,7 +90,7 @@ export const Hero = () => {
                                         lifetime: 250,
                                         startVelocity: 35,
                                         elementCount: 100,
-                                        colors: ['#ffbf2b', '#000', '#fff']
+                                        colors: ['#ffbf2b', '#fff', '#000']
                                     }}
                                 >
                                     <MainButton disabled style={{marginTop: 10, padding: '15px 62px'}} onClick={ handleClick }>{!active

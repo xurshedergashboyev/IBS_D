@@ -34,7 +34,6 @@ export const HeroBoth = styled.div `
 
 export const HeroSection = styled.div `
   margin: 0 auto;
-  text-align: center;
   .all {
     display: block;
     margin-top: 0;
@@ -237,9 +236,9 @@ export const Form = styled.form `
     margin: 5px;
     font-family: 'Mazzard', sans-serif;
     padding: 5px 10px 5px;
-    transition: all .5s;
-    outline: nonee
-    :focus {
+    transition: all .3s;
+    outline: none;
+    &:focus {
       border-radius: 8px;
       border: 3px solid #ffbf2b;
       outline: none;
@@ -253,13 +252,13 @@ export const Form = styled.form `
     margin: 4px;
     font-family: 'Mazzard', sans-serif;
     padding: 5px 10px 5px;
-    transition: all .5s;
+    transition: all .3s;
     outline: none;
     border: none;
     :focus {
       border-radius: 4px;
       border: 3px solid #ffbf2b;
-      outline: none;
+      outline: #ffbf2b;
     }
   }
 `;
@@ -273,7 +272,7 @@ export const FormInput = styled.input `
   margin: 5px;
   font-family: 'Mazzard', sans-serif;
   padding: 5px 10px 5px;
-  transition: all .5s;
+  transition: all .3s;
   outline: none;
   ::placeholder {
     padding-left: 5px;

@@ -38,6 +38,18 @@ export const SectionTitle = styled.div `
 export const AboutVideo = styled.div`
   padding: 20px;
   display: flex;
+  .youtube-video {
+    width: 720px;
+    height: 400px;
+    border-radius: 18px;
+    margin: 0 auto; 
+    @media screen and (max-width: 800px) {
+      height: 300px;
+    };
+    @media screen and (max-width: 600px) {
+      height: 250px;
+    };
+  };
 `;
 
 export const AboutVideoPlace = styled.div `
@@ -72,5 +84,6 @@ export const AboutVideoButton = styled.div `
     height: 1em;
     cursor: pointer;
   };
+  
 `;
 

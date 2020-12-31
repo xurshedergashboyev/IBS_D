@@ -14,8 +14,8 @@ import { Fade } from 'react-awesome-reveal';
 
 import ComputerIcon from '../../assets/icons/computer.png';
 import PaintIcon from '../../assets/icons/paint.png';
-import ErrorIcon from '../../assets/icons/error-404.png';
-import TowerIcon from '../../assets/icons/tower.png';
+import GroupIcon from '../../assets/icons/group.png';
+import XRayIcon from '../../assets/icons/x-ray.png';
 
 
 const items = [
@@ -33,13 +33,13 @@ const items = [
     },
     {
         id: 3,
-        icon: ErrorIcon,
+        icon: GroupIcon,
         content: 'Business',
         paragraph: 'Корпоративная культура, стандарты, мотивация, стимулирование, основы управления персоналом, рекрутмент.'
     },
     {
         id: 4,
-        icon: TowerIcon,
+        icon: XRayIcon,
         content: 'Languages',
         paragraph: 'Контент-маркетинг, маркетинг влияния, интернет-реклама, Wordpress, Opencart, SEO, SMM.'
     }
@@ -53,14 +53,14 @@ const FacultiesItem = () => {
                 <FacultiesItems key={item.id}>
                     <FacultiesEachItem>
                         <FacultiesItemInner>
-                            <Fade delay={500} triggerOnce={false}>
+                            <Fade delay={300} triggerOnce={true}>
                                 <FacultiesItemIcon>
                                     <FacultiesItemIconImage>
                                         <img src={item.icon} alt="globe"/>
                                     </FacultiesItemIconImage>
                                 </FacultiesItemIcon>
                             </Fade>
-                            <Fade delay={1000} triggerOnce={false}>
+                            <Fade delay={500} triggerOnce={true}>
                                 <FacultiesContent>
                                     <Heading>
                                         {item.content}
@@ -69,10 +69,10 @@ const FacultiesItem = () => {
                                 </FacultiesContent>
                             </Fade>
                         </FacultiesItemInner>
-                        <Fade delay={1500} triggerOnce={false}>
+                        <Fade delay={800} triggerOnce={true}>
                             <FacultiesAction>
                                 <BtnGroups>
-                                    <MainButton style={{padding: '18px 40px', backgroundColor: '#8aff8d'}}>Выбрать</MainButton>
+                                    <MainButton style={{padding: '18px 40px'}}>Выбрать</MainButton>
                                 </BtnGroups>
                             </FacultiesAction>
                         </Fade>

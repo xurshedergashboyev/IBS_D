@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 export const FooterSection = styled.div `
-  padding: 40px 0;
+  padding-bottom: 0;
   @media screen and (max-width: 479px) {
-    padding: 20px 0 40px;
+    padding-bottom: 0;
+    margin: 0;
   };
 `;
 

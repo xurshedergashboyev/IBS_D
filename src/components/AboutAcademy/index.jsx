@@ -1,8 +1,9 @@
 import React from 'react';
 import { Container, Heading, HeadingDesc } from "../../assets/Styles/MainStyle";
-import { About, SectionMainTitle, AboutVideo, AboutVideoButton, AboutVideoPlace } from "./style";
+import { About, SectionMainTitle, AboutVideo } from "./style";
 import AboutItems from "../AboutItems";
-import { FaPlay } from 'react-icons/fa'
+
+
 
 const AboutAcademy = () => {
     return (
@@ -13,13 +14,16 @@ const AboutAcademy = () => {
                     <HeadingDesc style={{marginBottom: 30}}>Тех Академия Бобира Акилханова - карьера успешного IT специалиста начинается здесь</HeadingDesc>
                 </SectionMainTitle>
                 <AboutVideo>    
-                    <AboutVideoPlace>
-                        <AboutVideoButton>
-                            <FaPlay className="video-button"/>
-                       </AboutVideoButton>
-                    </AboutVideoPlace>
+                        <iframe 
+                            width="720" 
+                            height="400" 
+                            src="https://www.youtube.com/embed/f0c7pSCoZqE" 
+                            frameBorder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            className="youtube-video"
+                         />    
                 </AboutVideo>
-                {/*ABout Items Section*/}
+                {/*About Items Section*/}
                 <AboutItems />
             </Container>
         </About>
