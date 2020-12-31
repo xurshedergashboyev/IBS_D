@@ -1,6 +1,12 @@
 import React from 'react';
-import { Heading } from "../../assets/Styles/MainStyle";
-import { AboutItemFirst, AboutItemText, AboutItemImage, HeadingDesc, AboutItemSecond } from "./style";
+import { 
+    AboutItemFirst,
+    AboutItemText, 
+    AboutItemImage,
+    HeadingDesc,
+    AboutItemSecond,
+    ItemsHeading
+ } from "./style";
 import { Fade } from 'react-awesome-reveal';
 
 const AboutItems = () => {
@@ -10,9 +16,9 @@ const AboutItems = () => {
                 <AboutItemFirst>
                     <AboutItemText>
                         <Fade direction='right' delay={1000} triggerOnce={true} duration={1000}>
-                            <Heading>
+                            <ItemsHeading>
                                 Образовательные программы
-                            </Heading>
+                            </ItemsHeading>
                             <HeadingDesc>Образовательные программы, которые будут интересны всем, кто хочет построить успешную карьеру в IT.</HeadingDesc>
                         </Fade>
                     </AboutItemText>
@@ -32,9 +38,9 @@ const AboutItems = () => {
                     </AboutItemImage>
                     <AboutItemText>
                         <Fade direction='left' delay={1000} triggerOnce={true} duration={1000} >
-                            <Heading>
+                            <ItemsHeading>
                                 Образовательные программы
-                            </Heading>
+                            </ItemsHeading>
                             <HeadingDesc>Образовательные программы, которые будут интересны всем, кто хочет построить успешную карьеру в IT.</HeadingDesc>
                         </Fade>
                     </AboutItemText>
@@ -43,9 +49,9 @@ const AboutItems = () => {
                 <AboutItemFirst>
                     <AboutItemText>
                         <Fade direction='right' delay={1000} triggerOnce={true} duration={1000}>
-                            <Heading>
+                            <ItemsHeading>
                                 Образовательные программы
-                            </Heading>
+                            </ItemsHeading>
                             <HeadingDesc>Образовательные программы, которые будут интересны всем, кто хочет построить успешную карьеру в IT.</HeadingDesc>
                         </Fade>
                     </AboutItemText>

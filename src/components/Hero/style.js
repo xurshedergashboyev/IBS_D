@@ -129,6 +129,9 @@ export const FormSection = styled.div `
     margin-left: 0;
     margin-right: 0;
   }
+  @media screen and (max-width: 450px) {
+    width: 300px;
+  }
   
   ::before {
     pointer-events: none;

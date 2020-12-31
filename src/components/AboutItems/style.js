@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import { Heading } from '../../styles/MainStyle'
 
 export const AboutItemFirst = styled.div `
   display: flex;
@@ -50,20 +50,24 @@ export const AboutItemText = styled.div `
   margin-left: 12px;
   margin-right: 12px;
   width: calc(50% - 24px);
-  
   @media screen and (max-width: 575px) {
     -webkit-box-ordinal-group: 3;
     order: 2;
     width: calc(100% - 24px);
+  };
+`;
+
+export const ItemsHeading = styled(Heading) `
+background: none;
+  @media screen and (max-width: 575px) {
+    font-size: 25px;
   }
-  
-  
 `
 
 export const  AboutItemImage = styled.div `
   box-sizing: border-box;
   margin-right: -12px;
-  margin-left: 12px;
+  margin-left: -12px;
   width: calc(50% - 24px);
   
   
@@ -92,4 +96,7 @@ export const  AboutItemImage = styled.div `
 
 export const HeadingDesc = styled.p `
   font-size: 16px;
+  @media screen and (max-width: 575px) {
+    font-size: 16px;
+  };
 `;
