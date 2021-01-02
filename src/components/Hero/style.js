@@ -1,8 +1,6 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-
-
-export const WrapperInner = styled.div `
+export const WrapperInner = styled.div`
   display: flex;
   flex-grow: 1;
   -webkit-box-flex: 1;
@@ -12,12 +10,12 @@ export const WrapperInner = styled.div `
   padding: 90px 0 0;
 `;
 
-export const Lead = styled.div `
+export const Lead = styled.div`
   padding: 35px 0 10px;
   margin: 0 auto;
 `;
 
-export const HeroBoth = styled.div `
+export const HeroBoth = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -32,7 +30,7 @@ export const HeroBoth = styled.div `
   }
 `;
 
-export const HeroSection = styled.div `
+export const HeroSection = styled.div`
   margin: 0 auto;
   .all {
     display: block;
@@ -54,7 +52,7 @@ export const HeroSection = styled.div `
       align-items: center;
 
       span {
-        font-size: .75rem;
+        font-size: 0.75rem;
       }
     }
     svg {
@@ -69,10 +67,9 @@ export const HeroSection = styled.div `
       }
     }
   }
-
 `;
 
-export const HeroTitle = styled.h1 `
+export const HeroTitle = styled.h1`
   position: relative;
   max-width: 750px;
   margin: 0 auto;
@@ -82,39 +79,44 @@ export const HeroTitle = styled.h1 `
   padding-bottom: 30px;
   @media screen and (max-width: 800px) {
     text-align: center;
-  };
+  }
   @media screen and (max-width: 991px) {
     font-size: 45px;
-  };
+  }
   @media screen and (max-width: 550px) {
     font-size: 40px;
-  };
+  } ;
 `;
 
-export const FirstSpan = styled.span `
-  
-`;
+export const FirstSpan = styled.span``;
 
-export const SecondSpan = styled.span `
-  font-family: 'Margo', sans-serif;
+export const SecondSpan = styled.span`
+  font-family: "Margo", sans-serif;
   font-size: 100px;
   -webkit-text-fill-color: #00e4e3;
 `;
 
-export const ThirdSpan = styled.span `
-  font-family: 'Hello', sans-serif;
+export const ThirdSpan = styled.span`
+  font-family: "Hello", sans-serif;
   font-size: 100px;
   -webkit-text-fill-color: #ffbf2b;
 `;
 
-export const FourthSpan = styled.span `
-  background-image: linear-gradient(transparent 0, transparent 55%, #8aff8d 55%, #8aff8d 90%, transparent 90%, transparent 100%);
+export const FourthSpan = styled.span`
+  background-image: linear-gradient(
+    transparent 0,
+    transparent 55%,
+    #8aff8d 55%,
+    #8aff8d 90%,
+    transparent 90%,
+    transparent 100%
+  );
   background-position: 70%;
   background-repeat: no-repeat;
-  font-family: 'Recoleta', sans-serif;
-`
+  font-family: "Recoleta", sans-serif;
+`;
 
-export const FormSection = styled.div `
+export const FormSection = styled.div`
   width: 390px;
   height: 394px;
   margin: 50px;
@@ -131,7 +133,7 @@ export const FormSection = styled.div `
   @media screen and (max-width: 450px) {
     width: 300px;
   }
-  
+
   ::before {
     pointer-events: none;
     content: "";
@@ -152,7 +154,7 @@ export const FormSection = styled.div `
       display: none;
     }
   }
-  
+
   ::after {
     pointer-events: none;
     content: "";
@@ -173,7 +175,7 @@ export const FormSection = styled.div `
       display: none;
     }
   }
-  
+
   .Intro__svg {
     fill: #000000;
     color: #000000;
@@ -191,7 +193,7 @@ export const FormSection = styled.div `
   }
 `;
 
-export const FormSectionText = styled.div `
+export const FormSectionText = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -199,34 +201,40 @@ export const FormSectionText = styled.div `
   padding-top: 5px;
 `;
 
-export const FormSectionTitle = styled.h1 `
+export const FormSectionTitle = styled.h1`
   font-size: 22px;
   font-weight: 700;
   color: #000000;
-  background-image: linear-gradient(transparent 0,transparent 55%, hsl(4deg 65% 85%) 55%, hsl(4deg 65% 85%)    90%,transparent 90%,transparent 100%);
+  background-image: linear-gradient(
+    transparent 0,
+    transparent 55%,
+    hsl(4deg 65% 85%) 55%,
+    hsl(4deg 65% 85%) 90%,
+    transparent 90%,
+    transparent 100%
+  );
   background-repeat: no-repeat;
   background-size: 90%;
   @media screen and (max-width: 1024px) {
     font-size: 18px;
   }
-  
 `;
 
-export const FormSectionDesc = styled.p `
+export const FormSectionDesc = styled.p`
   font-size: 16px;
   color: #000;
   margin-top: 0;
   @media screen and (max-width: 1024px) {
     font-size: 14px;
   }
-`
+`;
 
-export const Form = styled.form `
+export const Form = styled.form`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
   .number-format {
     background-color: white;
     border-radius: 4px;
@@ -234,9 +242,9 @@ export const Form = styled.form `
     height: 40px;
     border: none;
     margin: 5px;
-    font-family: 'Mazzard', sans-serif;
+    font-family: "Mazzard", sans-serif;
     padding: 5px 10px 5px;
-    transition: all .3s;
+    transition: all 0.3s;
     outline: none;
     &:focus {
       border-radius: 8px;
@@ -244,15 +252,15 @@ export const Form = styled.form `
       outline: none;
     }
   }
-  
+
   .select {
     width: 85%;
     height: 40px;
     border: none;
     margin: 4px;
-    font-family: 'Mazzard', sans-serif;
+    font-family: "Mazzard", sans-serif;
     padding: 5px 10px 5px;
-    transition: all .3s;
+    transition: all 0.3s;
     outline: none;
     border: none;
     :focus {
@@ -263,26 +271,25 @@ export const Form = styled.form `
   }
 `;
 
-export const FormInput = styled.input `
+export const FormInput = styled.input`
   background-color: white;
   border-radius: 4px;
   width: 80%;
   height: 40px;
   border: none;
   margin: 5px;
-  font-family: 'Mazzard', sans-serif;
+  font-family: "Mazzard", sans-serif;
   padding: 5px 10px 5px;
-  transition: all .3s;
+  transition: all 0.3s;
   outline: none;
   ::placeholder {
     padding-left: 5px;
-    font-family: 'Mazzard', sans-serif;
+    font-family: "Mazzard", sans-serif;
   }
-  
+
   :focus {
     border-radius: 4px;
     border: 3px solid #ffbf2b;
     outline: none;
   }
 `;
-

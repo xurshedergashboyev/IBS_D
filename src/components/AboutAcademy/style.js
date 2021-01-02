@@ -1,35 +1,35 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const About = styled.div `
+export const About = styled.div`
   @media screen and (max-width: 575px) {
     padding: 30px 0;
   }
 `;
 
-export const SectionMainTitle = styled.div `
+export const SectionMainTitle = styled.div`
   text-align: center;
   margin-top: 20px;
   @media screen and (max-width: 945px) {
     margin-top: 20px;
-  };
+  }
   @media screen and (max-width: 805px) {
     margin-top: 20px;
-  };
+  }
   @media screen and (max-width: 575px) {
     margin-top: 20px;
     margin-bottom: 40px;
-  };
+  }
   @media screen and (max-width: 479px) {
     margin-top: 20px;
     text-align: center;
-  };
+  } ;
 `;
 
-export const SectionTitle = styled.div `
+export const SectionTitle = styled.div`
   text-align: center;
   @media screen and (max-width: 575px) {
     margin-bottom: 40px;
-  };
+  }
   @media screen and (max-width: 479px) {
     text-align: center;
   };
@@ -38,21 +38,22 @@ export const SectionTitle = styled.div `
 export const AboutVideo = styled.div`
   padding: 20px;
   display: flex;
+  margin: 40px;
   .youtube-video {
     width: 720px;
     height: 400px;
     border-radius: 18px;
-    margin: 0 auto; 
+    margin: 0 auto;
     @media screen and (max-width: 800px) {
       height: 300px;
-    };
+    }
     @media screen and (max-width: 600px) {
       height: 250px;
-    };
-  };
+    }
+  }
 `;
 
-export const AboutVideoPlace = styled.div `
+export const AboutVideoPlace = styled.div`
   width: 720px;
   height: 400px;
   background-color: #8aff8d;
@@ -67,14 +68,14 @@ export const AboutVideoPlace = styled.div `
   }
 `;
 
-export const AboutVideoButton = styled.div `
+export const AboutVideoButton = styled.div`
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   text-decoration: none;
   color: #fff;
-  transition: color .2s;
+  transition: color 0.2s;
   :hover {
     color: #ffbf2b;
   }
@@ -83,7 +84,5 @@ export const AboutVideoButton = styled.div `
     width: 1em;
     height: 1em;
     cursor: pointer;
-  };
-  
+  }
 `;
-
