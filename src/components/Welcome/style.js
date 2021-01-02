@@ -30,6 +30,9 @@ export const WelcomeContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  @media screen and (max-width: 500px) {
+    text-align: center;
+  }
 `;
 
 export const WelcomeHeading = styled.h1`
