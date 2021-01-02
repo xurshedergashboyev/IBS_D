@@ -39,6 +39,7 @@ export const AboutVideo = styled.div`
   padding: 20px;
   display: flex;
   margin: 40px;
+  justify-content: center;
   .youtube-video {
     width: 720px;
     height: 400px;
