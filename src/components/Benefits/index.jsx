@@ -9,7 +9,7 @@ import {
   IconImg,
 } from "./style";
 import { Fade } from "react-awesome-reveal";
-
+// icons
 import SetSquareIcon from "../../assets/icons/set-square.png";
 import CubeIcon from "../../assets/icons/cube.png";
 import QualityIcon from "../../assets/icons/quality.png";

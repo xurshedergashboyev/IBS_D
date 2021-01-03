@@ -48,7 +48,7 @@ const Footer = () => {
               <FooterInfoItem>
                 <Heading>График работы</Heading>
                 <FooterDesc>Понедельник-Суббота 09:00 - 18:00</FooterDesc>
-                <p>Воскресенье ВЫХОДНОЙ</p>
+                <FooterDesc>Воскресенье ВЫХОДНОЙ</FooterDesc>
               </FooterInfoItem>
               <FooterInfoItem>
                 <Heading>Телефон</Heading>

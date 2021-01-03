@@ -42,7 +42,7 @@ export const AboutItemSecond = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  } ;
+  } 
 `;
 
 export const AboutItemText = styled.div`
@@ -54,7 +54,7 @@ export const AboutItemText = styled.div`
     -webkit-box-ordinal-group: 3;
     order: 2;
     width: calc(100% - 24px);
-  } ;
+  } 
 `;
 
 export const ItemsHeading = styled(Heading)`
@@ -96,5 +96,5 @@ export const HeadingDesc = styled.p`
   font-size: 16px;
   @media screen and (max-width: 575px) {
     font-size: 16px;
-  } ;
+  } 
 `;

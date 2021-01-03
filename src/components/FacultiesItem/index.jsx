@@ -9,10 +9,10 @@ import {
   FacultiesItems,
   FacultiesAction,
   FacultiesDesc,
-} from "../Faculties/style";
+} from "./style";
 import { BtnGroups, MainButton } from "../../styles/MainStyle";
 import { Fade } from "react-awesome-reveal";
-
+// icons
 import ComputerIcon from "../../assets/icons/computer.png";
 import PaintIcon from "../../assets/icons/paint.png";
 import GroupIcon from "../../assets/icons/group.png";

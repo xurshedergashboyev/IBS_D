@@ -21,7 +21,7 @@ export const StyledNav = styled.button`
     width: 2rem;
     height: 0.15rem;
     background: ${({ open }) => (open ? "#000" : "#000")};
-    border-radius: 8px;
+    border-radius: 5px;
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
