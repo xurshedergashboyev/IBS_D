@@ -50,16 +50,15 @@ export const WelcomeParagraph = styled.p`
   @media screen and (max-width: 1040px) {
     font-size: 18px;
   }
-
 `;
 
-export const WelcomeImage = styled.div `
+export const WelcomeImage = styled.div`
   padding: 20px;
   display: flex;
   align-items: flex-end;
 `;
 
-export const WelcomeAuthor = styled.img `
+export const WelcomeAuthor = styled.img`
   width: 467px;
   height: 412px;
   margin: 0 auto;
@@ -71,4 +70,4 @@ export const WelcomeAuthor = styled.img `
   @media screen and (max-width: 500px) {
     width: 300px;
   }
-`
+`;

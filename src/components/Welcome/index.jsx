@@ -6,7 +6,7 @@ import {
   WelcomeContent,
   WelcomeParagraph,
   WelcomeImage,
-  WelcomeAuthor
+  WelcomeAuthor,
 } from "./style";
 
 const Welcome = () => {
@@ -23,7 +23,7 @@ const Welcome = () => {
           </WelcomeParagraph>
         </WelcomeContent>
         <WelcomeImage>
-          <WelcomeAuthor src="https://ba.uz/wp-content/themes/landing/images/bobir.png"/>
+          <WelcomeAuthor src="https://ba.uz/wp-content/themes/landing/images/bobir.png" />
         </WelcomeImage>
       </WelcomeInner>
     </WelcomeWrapper>

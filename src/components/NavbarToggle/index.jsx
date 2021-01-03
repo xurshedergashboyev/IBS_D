@@ -1,11 +1,11 @@
 import React from "react";
 import { bool, func } from "prop-types";
-import { StyledBurger } from "./style";
+import { StyledNav } from "./style";
 
 const NavbarToggle = ({ open, setOpen, ...props }) => {
   const isExpanded = !!open;
   return (
-    <StyledBurger
+    <StyledNav
       aria-label="Toggle menu"
       aria-expanded={isExpanded}
       open={open}
@@ -15,7 +15,7 @@ const NavbarToggle = ({ open, setOpen, ...props }) => {
       <span />
       <span />
       <span />
-    </StyledBurger>
+    </StyledNav>
   );
 };
 
