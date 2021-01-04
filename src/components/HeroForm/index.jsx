@@ -37,9 +37,9 @@ const options = [
         <FormInput type="text" required placeholder="Name" />
         <NumberFormat
           format="+998 (##) ###-##-##"
-          allowEmptyFormatting
           mask="_"
           className="number-format"
+          placeholder="Phone"
         />
         <FormInput
           type="email"

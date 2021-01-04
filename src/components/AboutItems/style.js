@@ -8,7 +8,8 @@ export const AboutItemFirst = styled.div`
   margin-left: -12px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 0;
+  height: auto;
   flex-direction: row;
   @media screen and (max-width: 575px) {
     text-align: center;
@@ -69,7 +70,7 @@ export const AboutItemImage = styled.div`
   margin-right: -12px;
   margin-left: -12px;
   width: calc(50% - 24px);
-
+  margin-bottom: -100px;
   @media screen and (max-width: 575px) {
     -webkit-box-ordinal-group: 2;
     order: 1;

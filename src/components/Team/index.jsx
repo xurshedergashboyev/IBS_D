@@ -56,6 +56,7 @@ const Team = () => {
                   (Javascript)
                 </TeamMemberDesc>
               </TeamMember>
+
               <TeamMember>
                 <TeamMemberImage>
                   <TeamMemberAvatar src={LoupeIcon} alt="" />

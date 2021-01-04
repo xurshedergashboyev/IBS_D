@@ -21,10 +21,15 @@ const AboutItems = () => {
               triggerOnce={true}
               duration={1000}
             >
-              <ItemsHeading>Образовательные программы</ItemsHeading>
+              <ItemsHeading>
+                Pay less, <span style={{ color: "#ffbf2b" }}>get</span> more
+              </ItemsHeading>
               <HeadingDesc>
-                Образовательные программы, которые будут интересны всем, кто
-                хочет построить успешную карьеру в IT.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+                totam placeat voluptatem delectus maxime vel quis mollitia
+                numquam ad hic saepe, ducimus esse harum corrupti reiciendis
+                tempore. Doloremque harum soluta amet quas, impedit voluptatem
+                consequuntur.
               </HeadingDesc>
             </Fade>
           </AboutItemText>
@@ -35,10 +40,14 @@ const AboutItems = () => {
               triggerOnce={true}
               duration={1000}
             >
-              <img
-                src="https://ba.uz/wp-content/themes/landing/images/about/about-3.png"
-                alt="image"
-              />
+              <lottie-player
+                src="https://assets10.lottiefiles.com/packages/lf20_nqbgog78.json"
+                background="transparent"
+                speed="1"
+                style={{ backgroundColor: "#fff" }}
+                loop
+                autoplay
+              ></lottie-player>
             </Fade>
           </AboutItemImage>
         </AboutItemFirst>
@@ -52,7 +61,14 @@ const AboutItems = () => {
               triggerOnce={true}
               duration={1000}
             >
-              <img src="https://ba.uz/wp-content/themes/landing/images/about/about-2.png" />
+              <lottie-player
+                src="https://assets6.lottiefiles.com/packages/lf20_sen1ai7d.json"
+                background="transparent"
+                speed="1"
+                style={{ backgroundColor: "#fff" }}
+                loop
+                autoplay
+              ></lottie-player>
             </Fade>
           </AboutItemImage>
           <AboutItemText>
@@ -62,10 +78,18 @@ const AboutItems = () => {
               triggerOnce={true}
               duration={1000}
             >
-              <ItemsHeading>Образовательные программы</ItemsHeading>
+              <ItemsHeading>
+                Teachers are not just{" "}
+                <span style={{ color: "#ffbf2b", fontWeight: 700 }}>
+                  developers
+                </span>
+              </ItemsHeading>
               <HeadingDesc>
-                Образовательные программы, которые будут интересны всем, кто
-                хочет построить успешную карьеру в IT.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores quisquam vel blanditiis esse, ullam qui minima
+                repudiandae, doloremque amet fugiat voluptatem sunt quia facere
+                modi impedit repellendus, odio vero reiciendis pariatur ducimus
+                quos! Natus, voluptas.
               </HeadingDesc>
             </Fade>
           </AboutItemText>
@@ -79,16 +103,31 @@ const AboutItems = () => {
             triggerOnce={true}
             duration={1000}
           >
-            <ItemsHeading>Образовательные программы</ItemsHeading>
+            <ItemsHeading>
+              More{" "}
+              <span style={{ color: "#ffbf2b", fontWeight: 700 }}>
+                practice
+              </span>{" "}
+              than theory
+            </ItemsHeading>
             <HeadingDesc>
-              Образовательные программы, которые будут интересны всем, кто хочет
-              построить успешную карьеру в IT.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              quibusdam assumenda id nemo sint eaque aliquid quidem tempora
+              repellat nobis iste deleniti, vitae qui nulla dolorem consectetur
+              temporibus debitis rem ab ratione vero dolores. Saepe?
             </HeadingDesc>
           </Fade>
         </AboutItemText>
-        <AboutItemImage>
+        <AboutItemImage style={{ marginBottom: 0 }}>
           <Fade direction="left" delay={500} triggerOnce={true} duration={1000}>
-            <img src="https://ba.uz/wp-content/themes/landing/images/about/about-1.png" />
+            <lottie-player
+              src="https://assets5.lottiefiles.com/packages/lf20_micqvrzw.json"
+              background="transparent"
+              speed="1"
+              style={{ backgroundColor: "#fff", height: 400 }}
+              autoplay
+              loop
+            ></lottie-player>
           </Fade>
         </AboutItemImage>
       </AboutItemFirst>
