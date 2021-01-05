@@ -18,7 +18,7 @@ export const AboutItemFirst = styled.div`
   @media screen and (max-width: 866px) {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   } ;
@@ -40,7 +40,7 @@ export const AboutItemSecond = styled.div`
   @media screen and (max-width: 866px) {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   } 
@@ -74,7 +74,8 @@ export const AboutItemImage = styled.div`
   @media screen and (max-width: 575px) {
     -webkit-box-ordinal-group: 2;
     order: 1;
-    margin-bottom: 20px;
+    margin-bottom: -20px;
+    z-index: -1;
     width: calc(100% - 24px);
 
     img {

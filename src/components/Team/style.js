@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const TeamSection = styled.div`
-  padding: 60px 0;
+  padding: 0;
 `;
 
 export const TeamInner = styled.div`

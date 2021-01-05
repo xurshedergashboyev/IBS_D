@@ -40,6 +40,9 @@ export const WelcomeHeading = styled.h1`
   padding-left: 20px;
   font-weight: 700;
   color: #000;
+  @media screen and (max-width: 500px) {
+    font-size: 25px;
+  }
 `;
 
 export const WelcomeParagraph = styled.p`
@@ -68,6 +71,9 @@ export const WelcomeAuthor = styled.img`
     height: auto;
   }
   @media screen and (max-width: 500px) {
-    width: 300px;
+    width: 250px;
+  }
+  @media screen and (max-width: 400px) {
+    width: 250px;
   }
 `;

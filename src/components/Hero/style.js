@@ -2,10 +2,6 @@ import styled from "styled-components";
 
 export const WrapperInner = styled.div`
   display: flex;
-  flex-grow: 1;
-  -webkit-box-flex: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
   min-height: 1px;
   padding: 90px 0 0;
 `;
@@ -42,7 +38,6 @@ export const HeroSection = styled.div`
       position: relative;
       display: inline-flex;
     }
-
     .span {
       position: absolute;
       width: 100%;

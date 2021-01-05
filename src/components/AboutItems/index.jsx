@@ -96,7 +96,7 @@ const AboutItems = () => {
         </AboutItemSecond>
       </Fade>
       <AboutItemFirst>
-        <AboutItemText>
+        <AboutItemText style={{marginRight: 40}}>
           <Fade
             direction="right"
             delay={1000}

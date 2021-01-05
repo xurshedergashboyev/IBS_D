@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FormSection = styled.div`
-  width: 390px;
+  width: 390px !important;
   height: 394px;
   margin: 50px;
   justify-content: center;
