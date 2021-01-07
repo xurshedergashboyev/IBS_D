@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Container } from '../../styles/MainStyle'
 
 export const WrapperInner = styled.div`
   display: flex;
@@ -25,6 +26,12 @@ export const HeroBoth = styled.div`
     align-items: center;
   }
 `;
+
+export const HeroContainer = styled(Container) `
+  @media screen and (max-width: 450px) {
+    padding: 0;
+  }
+`
 
 export const HeroSection = styled.div`
   margin: 0 auto;

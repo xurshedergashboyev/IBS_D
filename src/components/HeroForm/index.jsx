@@ -6,6 +6,7 @@ import {
   FormSectionDesc,
   Form,
   FormInput,
+  FormWrapper
 } from "./style";
 // packages
 import Reward from "react-rewards";
@@ -28,7 +29,8 @@ const options = [
     reward.rewardMe();
   };
   return (
-    <FormSection>
+    <FormWrapper>
+      <FormSection>
       <FormSectionText>
         <FormSectionTitle>Curriculum Vitae</FormSectionTitle>
         <FormSectionDesc>Daler Zakirov</FormSectionDesc>
@@ -109,6 +111,9 @@ const options = [
         <rect width="100" height="60" fill="url(#SVGID_1_)" />
       </svg>
     </FormSection>
+    </FormWrapper>
+
+    
   );
 };
 

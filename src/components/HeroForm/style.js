@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+export const FormWrapper = styled.div `
+  @media screen and (max-width: 450px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+`
+
 export const FormSection = styled.div`
   width: 390px !important;
   height: 394px;
@@ -16,7 +23,7 @@ export const FormSection = styled.div`
     border-radius: 12px;
   }
   @media screen and (max-width: 450px) {
-    width: 300px;
+    width: 100%;
   }
 
   ::before {

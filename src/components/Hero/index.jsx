@@ -2,6 +2,7 @@ import React from "react";
 import {
   WrapperInner,
   Lead,
+  HeroContainer,
   HeroSection,
   HeroTitle,
   HeroBoth,
@@ -11,7 +12,6 @@ import {
   FourthSpan,
 } from "./style";
 
-import { Container } from "../../assets/Styles/MainStyle";
 import { MainButton } from "../../styles/MainStyle";
 
 import Typist from "react-typist";
@@ -29,7 +29,7 @@ const Hero = () => {
   return (
     <WrapperInner>
       <Lead>
-        <Container>
+        <HeroContainer>
           <HeroBoth>
             <HeroSection>
               <HeroTitle>
@@ -47,7 +47,7 @@ const Hero = () => {
             </HeroSection>
             <HeroForm />
           </HeroBoth>
-        </Container>
+        </HeroContainer>
       </Lead>
     </WrapperInner>
   );
