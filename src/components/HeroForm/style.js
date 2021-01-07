@@ -13,6 +13,7 @@ export const FormSection = styled.div`
     margin-top: 100px;
     margin-left: 0;
     margin-right: 0;
+    border-radius: 12px;
   }
   @media screen and (max-width: 450px) {
     width: 300px;

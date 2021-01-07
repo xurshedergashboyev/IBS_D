@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const WelcomeWrapper = styled.div`
   margin: 50px;
+  @media screen and (max-width: 780px) {
+    margin: 0;
+  }
 `;
 
 export const WelcomeInner = styled.div`
@@ -9,8 +12,11 @@ export const WelcomeInner = styled.div`
   height: 500px;
   display: flex;
   justify-content: space-around;
+  background-color: #e0e0e0;
+  margin: 0 auto;
+  border-radius: 18px;
 
-  @media screen and (max-width: 1040px) {
+  @media screen and (max-width: 1150px) {
     width: 100%;
     height: auto;
   }
@@ -18,11 +24,9 @@ export const WelcomeInner = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin: 0;
+    border-radius: 0;
   }
-
-  background-color: #e0e0e0;
-  margin: 0 auto;
-  border-radius: 18px;
 `;
 
 export const WelcomeContent = styled.div`

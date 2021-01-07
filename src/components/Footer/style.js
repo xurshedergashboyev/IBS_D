@@ -54,6 +54,11 @@ export const FooterMap = styled.div`
   margin-left: 12px;
   margin-right: 12px;
   width: calc(66.6667% - 24px);
+  @media screen and (max-width: 767px) {
+    width: calc(100% - 24px);
+    height: 200px;
+    margin-bottom: 30px;
+  }
   iframe {
     width: 600px;
     height: 400px;
@@ -63,13 +68,10 @@ export const FooterMap = styled.div`
       width: calc(100% - 24px);
       height: 200px;
       margin-bottom: 10px;
+      border-radius: 12px
     }
   }
-  @media screen and (max-width: 767px) {
-    width: calc(100% - 24px);
-    height: 200px;
-    margin-bottom: 30px;
-  }
+  
 `;
 
 export const FooterBottom = styled.div`

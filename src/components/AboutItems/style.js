@@ -8,12 +8,15 @@ export const AboutItemFirst = styled.div`
   margin-left: -12px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0;
+  margin-bottom: -50px;
   height: auto;
   flex-direction: row;
+  .item-text {
+    padding-top: 100px;
+  }
   @media screen and (max-width: 575px) {
     text-align: center;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
   }
   @media screen and (max-width: 866px) {
     display: flex;
@@ -33,6 +36,9 @@ export const AboutItemSecond = styled.div`
   justify-content: center;
   margin-bottom: 50px;
   flex-direction: row;
+  .item-text {
+    padding-top: 140px;
+  }
   @media screen and (max-width: 575px) {
     text-align: center;
     margin-bottom: 50px;
@@ -51,6 +57,7 @@ export const AboutItemText = styled.div`
   margin-left: 12px;
   margin-right: 12px;
   width: calc(50% - 24px);
+  
   @media screen and (max-width: 575px) {
     -webkit-box-ordinal-group: 3;
     order: 2;

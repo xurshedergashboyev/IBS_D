@@ -14,7 +14,7 @@ const AboutItems = () => {
     <div className="about-items">
       <Fade bottom delay={500} triggerOnce={true}>
         <AboutItemFirst>
-          <AboutItemText>
+          <AboutItemText className="item-text">
             <Fade
               direction="right"
               delay={1000}
@@ -71,7 +71,7 @@ const AboutItems = () => {
               ></lottie-player>
             </Fade>
           </AboutItemImage>
-          <AboutItemText>
+          <AboutItemText className="item-text">
             <Fade
               direction="left"
               delay={1000}
@@ -96,7 +96,7 @@ const AboutItems = () => {
         </AboutItemSecond>
       </Fade>
       <AboutItemFirst>
-        <AboutItemText style={{marginRight: 40}}>
+        <AboutItemText style={{marginRight: 40}} >
           <Fade
             direction="right"
             delay={1000}
