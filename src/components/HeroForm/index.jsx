@@ -65,7 +65,7 @@ const options = [
         >
           <MainButton
             disabled
-            style={{ marginTop: 10, padding: "15px 62px" }}
+            style={{ marginTop: 20, padding: "15px 62px" }}
             onClick={handleClick}
           >
             {!active ? "Submit" : "Submitted"}

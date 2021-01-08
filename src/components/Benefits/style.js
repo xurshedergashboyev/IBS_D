@@ -4,8 +4,8 @@ import { Container } from "../../styles/MainStyle";
 export const BenefitsSection = styled.div`
   padding: 50px 0 0;
   @media screen and (max-width: 479px) {
-    padding: 30px 0 50px;
-  } ;
+    padding: 30px 0 40px;
+  } 
 `;
 
 export const BenefitsContainer = styled(Container)`
@@ -27,18 +27,19 @@ export const RowItem = styled.div`
   box-sizing: border-box;
   margin: 27px 12px;
   text-align: center;
-  width: 350px;
+  width: 300px;
   padding-bottom: 40px;
-  @media screen and (max-width: 479px) {
+
+  @media screen and (max-width: 767px) {
     width: 175px;
+    font-size: 16px;
+  }
+  @media screen and (max-width: 479px) {
+    width: 150px;
     font-size: 14px;
     margin: 20px auto;
     justify-content: center;
   }
-  @media screen and (max-width: 767px) {
-    width: 200px;
-    font-size: 16px;
-  } ;
 `;
 
 export const Icon = styled.div`
@@ -48,12 +49,6 @@ export const Icon = styled.div`
   border-radius: 50%;
   background-color: #f3f1ee;
   margin: 0 auto 15px;
-  <AboutDesc / > {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
 `;
 
 export const AboutDesc = styled.p`

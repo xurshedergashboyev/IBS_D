@@ -5,7 +5,7 @@ export const TeamSection = styled.div`
 `;
 
 export const TeamInner = styled.div`
-  padding: 10px 0 95px;
+  padding: 10px 0 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,8 +80,8 @@ export const TeamMember = styled.div`
 `;
 
 export const TeamMemberImage = styled.div`
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   background-color: #f3f1ee;
   border-radius: 50%;
   margin: 10px;
@@ -92,8 +92,8 @@ export const TeamMemberAvatar = styled.img`
   position: absolute;
   top: 25%;
   left: 25%;
-  width: 60px;
-  height: 60px;
+  width: 75px;
+  height: 75px;
 `;
 
 export const TeamMemberName = styled.h1`

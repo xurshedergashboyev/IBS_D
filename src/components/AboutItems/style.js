@@ -39,6 +39,9 @@ export const AboutItemSecond = styled.div`
   .item-text {
     padding-top: 140px;
   }
+  .item-second {
+    margin-top: -100px;
+  }
   @media screen and (max-width: 575px) {
     text-align: center;
     margin-bottom: 50px;
@@ -62,6 +65,7 @@ export const AboutItemText = styled.div`
     -webkit-box-ordinal-group: 3;
     order: 2;
     width: calc(100% - 24px);
+    margin-top: -50px;
   } 
 `;
 
@@ -77,7 +81,8 @@ export const AboutItemImage = styled.div`
   margin-right: -12px;
   margin-left: -12px;
   width: calc(50% - 24px);
-  margin-bottom: -100px;
+  /* margin-bottom: -100px; */
+  margin-top: -80px;
   @media screen and (max-width: 575px) {
     -webkit-box-ordinal-group: 2;
     order: 1;

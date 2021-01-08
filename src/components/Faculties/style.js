@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Main = styled.div`
-  padding: 0 0 50px;
+  padding: 0 0 30px;
 `;
 
 export const FacultiesHeader = styled.div`

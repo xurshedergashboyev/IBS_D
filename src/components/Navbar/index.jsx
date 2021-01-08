@@ -3,6 +3,7 @@ import { Header, AllItems, Logo, NavbarItemLink } from "./style";
 import { Container } from "../../assets/Styles/MainStyle";
 import NavbarToggle from "../NavbarToggle";
 import Sidebar from "../Sidebar";
+import logo from '../../assets/images/IBS.jpg'
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -15,7 +16,7 @@ const Navbar = () => {
               fontSize: 25,
             }}
           >
-            <NavbarItemLink>Hello guys</NavbarItemLink>
+            <NavbarItemLink src={logo} alt="IBS" />
           </Logo>
 
           <NavbarToggle setOpen={setOpen} open={open} />

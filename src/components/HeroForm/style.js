@@ -8,7 +8,7 @@ export const FormWrapper = styled.div `
 `
 
 export const FormSection = styled.div`
-  width: 390px !important;
+  width: 390px;
   height: 394px;
   margin: 50px;
   justify-content: center;
@@ -17,13 +17,13 @@ export const FormSection = styled.div`
   border-radius: 18px;
   position: relative;
   @media screen and (max-width: 667px) {
-    margin-top: 100px;
+    margin-top: 40px;
     margin-left: 0;
     margin-right: 0;
     border-radius: 12px;
   }
   @media screen and (max-width: 450px) {
-    width: 100%;
+    width: 350px;
   }
 
   ::before {
@@ -90,7 +90,7 @@ export const FormSectionText = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 5px;
+  padding-top: 10px;
 `;
 
 export const FormSectionTitle = styled.h1`
@@ -133,7 +133,7 @@ export const Form = styled.form`
     width: 80%;
     height: 40px;
     border: none;
-    margin: 5px;
+    margin: 10px;
     font-family: "Mazzard", sans-serif;
     padding: 5px 10px 5px;
     transition: all 0.3s;

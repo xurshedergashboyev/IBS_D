@@ -17,7 +17,7 @@ const AboutItems = () => {
           <AboutItemText className="item-text">
             <Fade
               direction="right"
-              delay={1000}
+              delay={5000}
               triggerOnce={true}
               duration={1000}
             >
@@ -36,7 +36,7 @@ const AboutItems = () => {
           <AboutItemImage>
             <Fade
               direction="left"
-              delay={500}
+              delay={300}
               triggerOnce={true}
               duration={1000}
             >
@@ -71,10 +71,10 @@ const AboutItems = () => {
               ></lottie-player>
             </Fade>
           </AboutItemImage>
-          <AboutItemText className="item-text">
+          <AboutItemText className="item-text item-second">
             <Fade
               direction="left"
-              delay={1000}
+              delay={5000}
               triggerOnce={true}
               duration={1000}
             >
@@ -99,7 +99,7 @@ const AboutItems = () => {
         <AboutItemText style={{marginRight: 40}} >
           <Fade
             direction="right"
-            delay={1000}
+            delay={3000}
             triggerOnce={true}
             duration={1000}
           >
@@ -107,7 +107,7 @@ const AboutItems = () => {
               More{" "}
               <span style={{ color: "#ffbf2b", fontWeight: 700 }}>
                 practice
-              </span>{" "}
+              </span>
               than theory
             </ItemsHeading>
             <HeadingDesc>

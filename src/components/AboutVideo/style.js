@@ -7,9 +7,7 @@ export const AboutVideo = styled.div`
   justify-content: center;
   @media screen and (max-width: 600px) {
       margin: 0;
-      padding-bottom: 40px;
-      padding-right: 0;
-      padding-left: 0;
+      padding: 0;
     }
   .youtube-video {
     width: 720px;

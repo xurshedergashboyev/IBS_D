@@ -57,7 +57,8 @@ export const FooterMap = styled.div`
   @media screen and (max-width: 767px) {
     width: calc(100% - 24px);
     height: 200px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: -20px;
   }
   iframe {
     width: 600px;
@@ -79,7 +80,7 @@ export const FooterBottom = styled.div`
   padding: 45px 0;
   @media screen and (max-width: 767px) {
     padding: 0;
-    margin: 40px 0 0;
+    margin: 20px 0 0;
   }
 `;
 
