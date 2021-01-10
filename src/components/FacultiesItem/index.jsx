@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading } from "../../assets/Styles/MainStyle";
+import { Heading } from "../../styles/MainStyle";
 import {
   FacultiesContent,
   FacultiesEachItem,

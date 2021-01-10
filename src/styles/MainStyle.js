@@ -18,7 +18,9 @@ export const MainWrapper = styled.div`
     left: 0;
     z-index: -1;
     display: block;
-
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
     .cls-1 {
       animation: fadeIn 0s forwards;
       opacity: 0;
@@ -70,15 +72,6 @@ export const Heading = styled.h3`
   color: #000;
   padding: 0;
   margin: 0;
-  background-image: linear-gradient(
-    transparent 0,
-    transparent 55%,
-    #ffbf2b 55%,
-    #ffbf2b 90%,
-    transparent 90%,
-    transparent 100%
-  );
-  background-size: 100%;
   @media screen and (max-width: 479px) {
     margin: 0 0 5px;
   }

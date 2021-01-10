@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, Container } from "../../assets/Styles/MainStyle";
+import { Heading, Container } from "../../styles/MainStyle";
 import { SectionTitle } from "../AboutAcademy/style";
 import {
   FooterSection,

@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Header, AllItems, Logo, NavbarItemLink } from "./style";
-import { Container } from "../../assets/Styles/MainStyle";
+import { Container } from "../../styles/MainStyle";
 import NavbarToggle from "../NavbarToggle";
 import Sidebar from "../Sidebar";
-import logo from '../../assets/images/IBS.jpg'
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -16,7 +15,7 @@ const Navbar = () => {
               fontSize: 25,
             }}
           >
-            <NavbarItemLink src={logo} alt="IBS" />
+            <NavbarItemLink>Hello guys</NavbarItemLink>
           </Logo>
 
           <NavbarToggle setOpen={setOpen} open={open} />

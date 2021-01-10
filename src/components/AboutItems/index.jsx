@@ -47,7 +47,7 @@ const AboutItems = () => {
                 style={{ backgroundColor: "#fff" }}
                 loop
                 autoplay
-              ></lottie-player>
+              />
             </Fade>
           </AboutItemImage>
         </AboutItemFirst>
@@ -68,7 +68,7 @@ const AboutItems = () => {
                 style={{ backgroundColor: "#fff" }}
                 loop
                 autoplay
-              ></lottie-player>
+              />
             </Fade>
           </AboutItemImage>
           <AboutItemText className="item-text item-second">
@@ -96,7 +96,7 @@ const AboutItems = () => {
         </AboutItemSecond>
       </Fade>
       <AboutItemFirst>
-        <AboutItemText style={{marginRight: 40}} >
+        <AboutItemText style={{ marginRight: 40 }}>
           <Fade
             direction="right"
             delay={3000}
@@ -127,7 +127,7 @@ const AboutItems = () => {
               style={{ backgroundColor: "#fff", height: 400 }}
               autoplay
               loop
-            ></lottie-player>
+            />
           </Fade>
         </AboutItemImage>
       </AboutItemFirst>

@@ -11,6 +11,8 @@ import { AppWrapper, MainWrapper } from "./styles/MainStyle";
 import Welcome from "./components/Welcome";
 import LinePath from "./components/LinePath/index";
 import { LineWrapper } from "./components/LinePath/style";
+
+
 const App = () => {
   return (
     <AppWrapper>

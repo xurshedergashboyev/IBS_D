@@ -61,10 +61,10 @@ export const Button = styled.div`
   } ;
 `;
 
-export const NavbarItemLink = styled.img`
+export const NavbarItemLink = styled.h1`
   text-decoration: none;
   color: #222222;
-  width: 60px;
+  font-size: 16px;
   &:hover {
     color: #00e4e3;
     transition: all 0.3s;

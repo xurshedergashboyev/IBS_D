@@ -11,8 +11,8 @@ import {
   TeamBack,
   TeamMember,
 } from "./style";
-import { Heading, Container } from "../../assets/Styles/MainStyle";
-import { HeadingDesc } from "../../assets/Styles/MainStyle";
+import { Heading, Container } from "../../styles/MainStyle";
+import { HeadingDesc } from "../../styles/MainStyle";
 import SettingsIcon from "../../assets/icons/settings.svg";
 import LoupeIcon from "../../assets/icons/loupe.svg";
 import AnalysisIcon from "../../assets/icons/analysis.svg";

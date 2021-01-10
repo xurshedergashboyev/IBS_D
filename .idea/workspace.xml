@@ -2,8 +2,138 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22a35258-deb4-498a-91e9-66e2f6ad920f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Styles/MainStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/font/Hello/Hello.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/font/Hello/Hello.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/font/Hello/Read Me.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AboutAcademy/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutAcademy/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutAcademy/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutAcademy/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutItems/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutItems/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutItems/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutItems/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutVideo/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutVideo/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutVideo/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutVideo/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArticleMain/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArticleMain/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Benefits/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Benefits/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BlogBottomPopup/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BlogBottomPopup/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BlogCard/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BlogCard/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CareerItemVacancyToggle/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CareerItemVacancyToggle/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CareersCard/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CareersCard/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CheckBox/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CheckBox/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ClapsBig/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ClapsBig/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ClapsContainer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ClapsContainer/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ClapsContainerAside/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ClapsContainerAside/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CommentCardAnswersToggle/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CommentCardAnswersToggle/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CommentCardBox/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CommentCardBox/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CourseBottomPopup/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CourseBottomPopup/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CourseCard/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CourseCard/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CoursesForm/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CoursesForm/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ErrorBoundary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ErrorBoundary/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Faculties/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Faculties/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FacultiesItem/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FacultiesItem/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FacultiesItem/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FacultiesItem/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ForumCard/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ForumCard/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ForumCommentsInput/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ForumCommentsInput/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroForm/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroForm/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroForm/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroForm/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IconHolder/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IconHolder/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IconsContainer/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IconsContainer/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LinePath/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LinePath/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LinePath/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LinePath/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoreArticles/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoreArticles/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoreArticlesContainer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoreArticlesContainer/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavbarLeft/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavbarLeft/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavbarToggle/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavbarToggle/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavbarToggle/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavbarToggle/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavbarTop/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavbarTop/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Select/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Select/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Toggle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Toggle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Spinner/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Spinner/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SquareHashtags/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SquareHashtags/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TeamCard/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TeamCard/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TestsCard/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TestsCard/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WebinarCard/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WebinarCard/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WebinarsItemTextDataSection/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WebinarsItemTextDataSection/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WebinarsItemVideoSection/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WebinarsItemVideoSection/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WebinarsRecCard/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WebinarsRecCard/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Welcome/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Welcome/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Welcome/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Welcome/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WriterInfo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WriterInfo/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useScrollToTop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useWindowDimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticleItemPage/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticleItemPage/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/BlogsPage/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/BlogsPage/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CareerItemPage/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CareerItemPage/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CareersPage/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CareersPage/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CoursesPage/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CoursesPage/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ForumItemPage/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ForumItemPage/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ForumPage/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ForumPage/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LandingPage/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LandingPage/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TestsPage/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TestsPage/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/WebinarsItemPage/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/WebinarsItemPage/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/WebinarsPage/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/WebinarsPage/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store/rootReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/MainStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/MainStyle.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +168,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\projects\landing-page-daler\src" />
+      <recent name="D:\projects\landing-page-daler\src\assets\icons" />
+      <recent name="D:\projects\landing-page-daler\src\components\NavbarToggle" />
       <recent name="D:\projects\landing-page-daler\src\components" />
+      <recent name="D:\projects\landing-page-daler\src" />
       <recent name="D:\projects\landing-page-daler\src\components\FacultiesItem" />
     </key>
   </component>
@@ -62,6 +194,9 @@
       <workItem from="1608109527285" duration="6289000" />
       <workItem from="1608118920263" duration="1622000" />
       <workItem from="1608307764254" duration="96000" />
+      <workItem from="1610172319840" duration="51000" />
+      <workItem from="1610221169020" duration="665000" />
+      <workItem from="1610255979476" duration="4972000" />
     </task>
     <servers />
   </component>

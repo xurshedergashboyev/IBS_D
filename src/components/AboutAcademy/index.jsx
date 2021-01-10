@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Heading, HeadingDesc } from "../../assets/Styles/MainStyle";
+import { Container, Heading, HeadingDesc } from "../../styles/MainStyle";
 import { About, SectionMainTitle } from "./style";
 
 import AboutItems from "../AboutItems";

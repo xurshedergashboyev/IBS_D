@@ -6,14 +6,15 @@ export const AboutVideo = styled.div`
   margin: 40px;
   justify-content: center;
   @media screen and (max-width: 600px) {
-      margin: 0;
-      padding: 0;
-    }
+    margin: 0;
+    padding: 0;
+  }
   .youtube-video {
     width: 720px;
     height: 400px;
     border-radius: 18px;
     margin: 0 auto;
+    z-index: 1;
     @media screen and (max-width: 800px) {
       height: 300px;
     }

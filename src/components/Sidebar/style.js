@@ -69,17 +69,17 @@ export const CloseButton = styled.div`
 `;
 
 export const SideContent = styled.div`
-  margin: 0 0 24px;
+  margin: 0 0 5px;
   font-size: 25px;
   font-weight: 600;
   line-height: 40px;
   border-bottom: 2px solid #000;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 `;
 
 export const SideExtraContent = styled.div`
   margin: 0;
-  padding: 24px 0 52px;
+  padding: 24px 0 30px;
   font-size: 20px;
   line-height: 36px;
   font-weight: 500;
@@ -89,6 +89,7 @@ export const SideExtra = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   margin-top: -20px;
   @media screen and (max-width: 1024px) {
     margin-top: -20px;
@@ -107,7 +108,7 @@ export const SideExtraSpan = styled.span`
   margin-left: 5px;
   font-size: 14px;
   @media screen and (max-width: 1024px) {
-    font-size: 10px;
+    font-size: 15px;
   }
 `;
 

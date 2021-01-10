@@ -60,7 +60,7 @@ const Sidebar = ({ open, ...props }) => {
             </SideExtraItems>
             <SideExtraItems>
               <GrMail style={{ fontSize: 20 }} />
-              <SideExtraSpan>xurshedergashboyev@gmail.com</SideExtraSpan>
+              <SideExtraSpan>ibs@gmail.com</SideExtraSpan>
             </SideExtraItems>
           </SideExtra>
           <SideSocials>

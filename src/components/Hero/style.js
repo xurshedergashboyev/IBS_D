@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Container } from '../../styles/MainStyle'
+import { Container } from "../../styles/MainStyle";
 
 export const WrapperInner = styled.div`
   display: flex;
@@ -27,11 +27,11 @@ export const HeroBoth = styled.div`
   }
 `;
 
-export const HeroContainer = styled(Container) `
+export const HeroContainer = styled(Container)`
   @media screen and (max-width: 450px) {
     padding: 0;
   }
-`
+`;
 
 export const HeroSection = styled.div`
   margin: 0 auto;
@@ -87,6 +87,7 @@ export const HeroTitle = styled.h1`
   }
   @media screen and (max-width: 550px) {
     font-size: 40px;
+    line-height: 0.75;
   } ;
 `;
 

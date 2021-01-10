@@ -11,8 +11,9 @@ export const AboutItemFirst = styled.div`
   margin-bottom: -50px;
   height: auto;
   flex-direction: row;
+  margin-top: -50px;
   .item-text {
-    padding-top: 100px;
+    padding-top: 50px;
   }
   @media screen and (max-width: 575px) {
     text-align: center;
@@ -52,7 +53,7 @@ export const AboutItemSecond = styled.div`
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-  } 
+  }
 `;
 
 export const AboutItemText = styled.div`
@@ -60,13 +61,13 @@ export const AboutItemText = styled.div`
   margin-left: 12px;
   margin-right: 12px;
   width: calc(50% - 24px);
-  
+
   @media screen and (max-width: 575px) {
     -webkit-box-ordinal-group: 3;
     order: 2;
     width: calc(100% - 24px);
     margin-top: -50px;
-  } 
+  }
 `;
 
 export const ItemsHeading = styled(Heading)`
@@ -82,7 +83,11 @@ export const AboutItemImage = styled.div`
   margin-left: -12px;
   width: calc(50% - 24px);
   /* margin-bottom: -100px; */
-  margin-top: -80px;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  padding-top: -50px;
+  margin-bottom: -100px;
   @media screen and (max-width: 575px) {
     -webkit-box-ordinal-group: 2;
     order: 1;
@@ -110,5 +115,5 @@ export const HeadingDesc = styled.p`
   font-size: 16px;
   @media screen and (max-width: 575px) {
     font-size: 16px;
-  } 
+  }
 `;

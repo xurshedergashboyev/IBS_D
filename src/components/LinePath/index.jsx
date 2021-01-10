@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const LinePath = () => {
   return (
     <div>

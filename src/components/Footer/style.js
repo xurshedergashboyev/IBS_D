@@ -69,10 +69,9 @@ export const FooterMap = styled.div`
       width: calc(100% - 24px);
       height: 200px;
       margin-bottom: 10px;
-      border-radius: 12px
+      border-radius: 12px;
     }
   }
-  
 `;
 
 export const FooterBottom = styled.div`

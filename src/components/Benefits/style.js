@@ -5,7 +5,7 @@ export const BenefitsSection = styled.div`
   padding: 50px 0 0;
   @media screen and (max-width: 479px) {
     padding: 30px 0 40px;
-  } 
+  }
 `;
 
 export const BenefitsContainer = styled(Container)`
